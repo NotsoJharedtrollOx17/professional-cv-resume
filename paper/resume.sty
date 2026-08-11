@@ -39,9 +39,11 @@
 }
 
 \newcommand{\ResumeTagline}[1]{%
-  {\centering\fontsize{11pt}{12pt}\selectfont\color{ResumeAccent}#1\par}%
+  {\centering\fontsize{11pt}{12pt}\selectfont\bfseries\color{ResumeAccent}#1\par}%
   \vspace{3pt}
 }
+
+\newcommand{\TaglineSep}{\;{\color{ResumeBlack}\bfseries |}\;}
 
 \newcommand{\ResumeMarker}{\textcolor{ResumeAccent}{\raisebox{0.08ex}{\scriptsize$\blacktriangleright$}}}
 \newcommand{\ContactSep}{\hspace{0.55em}\ResumeMarker\hspace{0.55em}}
