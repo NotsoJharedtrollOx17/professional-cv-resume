@@ -79,11 +79,21 @@
 }
 
 \newcommand{\cvtitle}[1]{{\color{ResumeAccent}\bfseries #1}}
+\newcommand{\rolecontext}[1]{{\color{ResumeBlack}\normalfont\itshape (#1)}}
 
 \newcommand{\cventry}[5]{%
   \Needspace{4.1\baselineskip}%
   \datedheading{\cvtitle{#1}}{#2}%
   {\itshape #3}\par
+  \if\relax\detokenize{#4}\relax\else
+    {\bfseries #4:} #5\par
+  \fi
+}
+
+\newcommand{\cvexperience}[5]{%
+  \Needspace{4.1\baselineskip}%
+  \datedheading{\cvtitle{#1}}{#2}%
+  {\bfseries #3}\par
   \if\relax\detokenize{#4}\relax\else
     {\bfseries #4:} #5\par
   \fi
