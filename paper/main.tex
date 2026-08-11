@@ -10,20 +10,21 @@
 \begin{document}
 
 \ResumeName{Abraham Jhared Flores Azcona}
-\ResumeTagline{Open Innovation Engineer\TaglineSep Independent Researcher}
+\ResumeTagline{Open Innovation Engineer\TaglineSep Machine Learning Research}
 \ResumeContact{%
   \ResumeMarker\hspace{0.45em}\contactlink{mailto:abrahamjhared.flores@gmail.com}{abrahamjhared.flores@gmail.com}%
-  \ContactSep\contactlink{https://linkedin.com/in/ajfloresazcona}{LinkedIn}%
   \ContactSep\contactlink{https://github.com/NotsoJharedtrollOx17}{GitHub}%
+  \ContactSep\contactlink{https://orcid.org/0009-0000-3068-3509}{ORCID}%
   \ContactSep\contactlink{https://notsojharedtrollox17.github.io/PersonalWebsite}{Personal Website}%
 }
 
 \cvsection{Research Interests}
 {
-\ResumeMarker\hspace{0.3em} AI Agents
+\ResumeMarker\hspace{0.3em} Mechanistic Interpretability
+\SkillSep Representation Engineering
 \SkillSep Large Language Models
-\SkillSep Mechanistic Interpretability
-\SkillSep Representation Learning
+\SkillSep Reproducible Machine Learning
+\SkillSep Scientific Machine Learning
 }\par
 
 \cvsection{Education}
@@ -31,81 +32,74 @@
   {Instituto Tecnol\'ogico de Tijuana}{}{ }
 GPA: 95/100\par
 
-\cvsection{Experience}
-\cvexperience{Open Innovation Engineer}{Feb 2024 -- Present}
-  {Open Innovation - Samsung Research Tijuana}{Supervisor}{Jorge Alonso Pulido Trujillo}
+\cvsection{Research Experience}
+\cvexperience{Independent Research Project}{2026 -- Present}
+  {Emotion-Vector Extraction and Activation Steering in Open-Source Language Models}{}{}
 \begin{cvitems}
-  \item Developed more than 10 AI proof-of-concept systems involving large language models, speech recognition, virtual assistants, AI agents, and on-device machine learning for the Samsung TV platform.
-  \item Designed AI applications in C/C++, Python, TypeScript, and JavaScript, by integrating partner SDKs and APIs for deployment in resource-constrained environments.
-  \item Collaborated with international engineering teams and external technology partners to assess AI software integration into Samsung's TV ecosystem.
-  \item Presented 4 technical demonstrations and AI prototypes to executive leadership during engineering workshops in South Korea.
-\end{cvitems}
-
-\cvexperience{Research Assistant}{Sep 2023 -- Jan 2024}
-  {Undergraduate Thesis - Instituto Tecnol\'ogico de Tijuana}{Advisor}{Jos\'e Sergio Magdaleno Palencia}
-\begin{cvitems}
-  \item Designed and executed original research study: ``Aplicaci\'on de Herramientas Digitales en el Aprendizaje de Qu\'imica para Ingenier\'ia Mec\'anica en una Escuela de Educaci\'on Superior''.
-  \item Developed the data analysis pipeline in Python using Pandas, NumPy, Matplotlib, NLTK, and GPT4Free.
-  \item Evaluated the effectiveness of ChatGPT-assisted instruction relative to traditional methodologies, observing no measurable improvement in student learning outcomes.
-  \item Coauthored the undergraduate thesis documenting methodology, statistical analysis, and experimental findings.
+  \item Investigated whether affect-associated residual-stream directions and activation steering transfer to GPT-2 Medium and Gemma 4 E2B under free-tier compute constraints.
+  \item Built a reproducible PyTorch and Hugging Face pipeline over 2,000 generated stories spanning 20 emotions, with vector extraction, Logit Lens projections, PCA, cosine similarity, and activation steering.
+  \item Found partial valence-like separation along PC1 and model- and prompt-dependent steering effects; documented corpus, evaluation, and control limitations in a single-author manuscript and \href{https://github.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2}{public code and data repository}.
 \end{cvitems}
 
 \cvexperience{Research Assistant}{Jun 2023 -- Aug 2023}
-  {ENLACE 2023 Summer Camp - University of California, San Diego}{Advisor}{Jonathan Guiang}
+  {ENLACE 2023 Summer Research Program - University of California San Diego}{Advisor}{Jonathan Guiang}
 \begin{cvitems}
-  \item Designed and executed original research study: ``Using Machine Learning for Particle Tracking at the Large Hadron Collider''.
-  \item Developed and trained 2 Deep Neural Networks (\textit{Small DNN} and \textit{Big DNN}) in PyTorch for binary particle-track line-segment classification.
-  \item Achieved ROC AUC of 0.97 for the \textit{Big DNN}, closely approximating the baseline performance of the laboratory's Graph Neural Network.
-  \item Presented research findings through poster and technical presentations at UC San Diego and Instituto Tecnol\'ogico de Tijuana.
+  \item Studied binary classification of candidate track line segments for the CMS Line Segment Tracking pipeline, testing whether simpler fully connected networks could approach a laboratory Graph Neural Network baseline.
+  \item Co-designed and trained 2 PyTorch DNNs on the UC San Diego Supercomputer Center; implemented preprocessing, training, inference, and ROC-analysis code for 14-feature line-segment data.
+  \item Achieved held-out ROC AUC 0.9724 with the Big DNN versus 0.9751 for the GNN baseline; coauthored a \href{https://github.com/NotsoJharedtrollOx17/Using_ML_for_Particle_Tracking_at_LHC}{public technical report and repository} and presented the work at UC San Diego and Instituto Tecnol\'ogico de Tijuana.
 \end{cvitems}
 
-% Current two-page balance point; move or remove when major sections are added.
+\cvexperience{Undergraduate Thesis Researcher}{Sep 2023 -- Jan 2024}
+  {Instituto Tecnol\'ogico de Tijuana}{Advisor}{Jos\'e Sergio Magdaleno Palencia}
+\begin{cvitems}
+  \item Co-designed a 39-student pretest-posttest study comparing traditional chemistry instruction (20 students) with instruction assisted by ChatGPT, Kahoot, and Chemistry software (19 students).
+  \item Developed the Python analysis pipeline using Pandas, NumPy, Matplotlib, NLTK, Shapiro-Wilk tests, paired tests, and Fisher's exact tests.
+  \item Found no evidence that the digital intervention outperformed traditional instruction, identified confounding variables, and coauthored the thesis and \href{https://github.com/NotsoJharedtrollOx17/Residencia_ITT}{public analysis repository}.
+\end{cvitems}
+
+\cvsection{Manuscript in Preparation}
+\cvrecord{Partial Replication of Anthropic's Emotion Vectors with Gemma 4 E2B and GPT-2 Medium}{2026}{%
+  \textbf{A. J. Flores-Azcona.}\par
+  Single-author manuscript. \href{https://github.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2}{Code, data, and generated artifacts.}%
+}
+
+% Current two-page balance point; move only to rebalance content.
 \newpage
 \ResumePageContinuation
-\cvexperience{Academic Tutor}{Feb 2023 -- Oct 2023}
-  {Community Service - Universidad Aut\'onoma de Baja California}{Supervisor}{Lizeth Carolina Aguilar Dodier}
+
+\cvsection{Industry Experience}
+\cvexperience{Open Innovation Engineer}{Feb 2024 -- Present}
+  {Open Innovation - Samsung Research Tijuana}{Supervisor}{Jorge Alonso Pulido Trujillo}
 \begin{cvitems}
-  \item Mentored more than 25 undergraduate students in Differential Calculus, Programming Fundamentals, and Numerical Analysis.
-  \item Developed a Python-based data analysis pipeline using Pandas and Matplotlib to evaluate attendance patterns and student engagement.
-  \item Analyzed participation trends across multiple courses to support data-informed educational assessment.
-  \item Strengthened technical communication and academic tutoring skills through individualized and group instruction.
+  \item Developed more than 10 AI proof-of-concept systems spanning large language models, speech recognition, virtual assistants, AI agents, and on-device machine learning for the Samsung TV platform.
+  \item Engineered C/C++, Python, TypeScript, and JavaScript applications by integrating partner SDKs and APIs for deployment in resource-constrained environments.
+  \item Collaborated with international engineering teams and technology partners, and presented 4 technical demonstrations to executive leadership during engineering workshops in South Korea.
 \end{cvitems}
 
-\cvsection{Preprints}
-% TODO(source): replace the placeholder DOI and add the repository URL when finalized.
-\cvrecord{Partial Replication of Anthropic's Emotion Vectors Using Gemma 4 E2B and GPT 2 Medium Inside a Google Colab T4 Notebook}{Aug 2026}{%
-  \textbf{A. J. Flores-Azcona.}\par
-  \textit{DOI: lorem.ipsum.dolor}\par
-  \textit{Repository (GitHub)}%
-}
+\cvsection{Teaching and Mentoring}
+\cvexperience{Academic Tutor}{Feb 2023 -- Oct 2023}
+  {Universidad Aut\'onoma de Baja California}{Supervisor}{Lizeth Carolina Aguilar Dodier}
+\begin{cvitems}
+  \item Mentored more than 25 undergraduate students in Differential Calculus, Programming Fundamentals, and Numerical Analysis through individual and group instruction.
+  \item Built a Pandas and Matplotlib analysis pipeline to examine attendance patterns and student engagement across courses.
+\end{cvitems}
 
-\cvsection{Presentations}
-\cvrecord{Partial Replication of Anthropic's Emotion Vectors Using Gemma 4 E2B and GPT 2 Medium Inside a Google Colab T4 Notebook}{May 2026}{%
-  \textbf{A. J. Flores-Azcona.} \textit{(Slides)} Virtual Research Seminar.\par
-  Samsung Research Tijuana.%
+\cvsection{Selected Presentations}
+\cvrecord{Partial Replication of Anthropic's Emotion Vectors with Gemma 4 E2B and GPT-2 Medium}{May 2026}{%
+  \textbf{A. J. Flores-Azcona.} \textit{Research talk}. Virtual Research Seminar, Samsung Research Tijuana.%
 }
 \cvrecord{Tizen Native in the Age of AI Tools}{Nov 2025}{%
-  \textbf{A. J. Flores-Azcona.} \textit{(Slides)} INNOVATEC 2025.\par
-  Instituto Tecnol\'ogico de Tijuana, Campus Tom\'as Aquino.%
+  \textbf{A. J. Flores-Azcona.} \textit{Technical talk}. INNOVATEC 2025, Instituto Tecnol\'ogico de Tijuana.%
 }
-\cvrecord{Using Machine Learning For Particle Tracking at the Large Hadron Collider}{Sep 2023}{%
-  A. D. Dennis-Hernandez and \textbf{A. J. Flores-Azcona.} \textit{(Slides)} ENLACE 2023 Simposio En Baja California.\par
-  Instituto Tecnol\'ogico de Tijuana, Campus Tom\'as Aquino.%
-}
-\cvrecord{Using ML for LHC Particle Tracking}{Aug 2023}{%
-  A. D. Dennis-Hernandez and \textbf{A. J. Flores-Azcona.} \textit{(Poster)} ENLACE 2023 Closing Ceremony and Symposium.\par
-  University of California San Diego.%
+\cvrecord{Using Machine Learning for Particle Tracking at the Large Hadron Collider}{Aug -- Sep 2023}{%
+  A. D. Dennis-Hernandez and \textbf{A. J. Flores-Azcona.} \textit{Poster and research talk}. UC San Diego ENLACE Symposium and ENLACE Simposio en Baja California.%
 }
 
 \cvsection{Technical Skills}
-\cvskill{Areas}{AI Agents \SkillSep Large Language Models \SkillSep Reproducible AI Research \SkillSep Mechanistic Interpretability  \SkillSep Representation Learning  \SkillSep Natural Language Processing \SkillSep Machine Learning \SkillSep Scientific Computing \SkillSep Data Science}
-\cvskill{Programming Languages}{Python \SkillSep C / C++ \SkillSep TypeScript \SkillSep JavaScript}
-\cvskill{Libraries \& Frameworks}{PyTorch \SkillSep Transformers \textit{(Hugging Face)} \SkillSep scikit-learn \SkillSep NumPy \SkillSep Pandas \SkillSep Matplotlib \SkillSep Plotly \SkillSep React \SkillSep Astro \SkillSep Vite}
-\cvskill{Tools \& Platforms}{OpenAI Codex \SkillSep Google Colab \SkillSep Jupyter Notebook \SkillSep Linux \SkillSep Git / GitHub \SkillSep Visual Studio Code \SkillSep LaTeX}
-\cvskill{Other}{Technical Documentation \SkillSep API / SDK Integration \SkillSep English \textit{(TOEFL iBT: 110/120)} \SkillSep Spanish \textit{(Native)}}
-
-\cvsection{Certifications}
-\cvcredential{IBM Data Science}{Issued Jan 2026}{https://www.coursera.org/account/accomplishments/specialization/DDMS5ZG79P05}{Coursera}
-\cvcredential{McKinsey.org Forward Program}{Issued Dec 2025}{https://www.credly.com/badges/a476f61a-2747-4c47-b7f2-375c2deeda43/public_url}{McKinsey \& Company}
+\cvskill{Research Methods}{Activation Steering \SkillSep Representation Analysis \SkillSep Logit Lens \SkillSep PCA \SkillSep Cosine Similarity \SkillSep Statistical Testing \SkillSep Reproducible Experiments}
+\cvskill{Programming}{Python \SkillSep C / C++ \SkillSep TypeScript \SkillSep JavaScript}
+\cvskill{ML and Scientific Computing}{PyTorch \SkillSep Hugging Face Transformers \SkillSep scikit-learn \SkillSep NumPy \SkillSep Pandas \SkillSep Matplotlib \SkillSep Plotly}
+\cvskill{Research Tools}{OpenAI Codex \SkillSep Linux \SkillSep Git / GitHub \SkillSep Google Colab \SkillSep Jupyter Notebook \SkillSep LaTeX}
+\cvskill{Languages}{English \textit{(TOEFL iBT: 110/120)} \SkillSep Spanish \textit{(Native)}}
 
 \end{document}
