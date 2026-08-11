@@ -47,7 +47,7 @@
 
 \newcommand{\ResumeMarker}{\textcolor{ResumeAccent}{\raisebox{0.08ex}{\scriptsize$\blacktriangleright$}}}
 \newcommand{\ContactSep}{\hspace{0.55em}\ResumeMarker\hspace{0.55em}}
-\newcommand{\SkillSep}{\penalty0\hspace{0.32em}\ResumeMarker\nobreak\hspace{0.32em}}
+\newcommand{\SkillSep}{\allowbreak\hspace{0.32em plus 0.08em}\ResumeMarker\nobreak\hspace{0.32em plus 0.06em}}
 \newcommand{\contactlink}[2]{\href{#1}{\textcolor{ResumeLinkBlue}{\bfseries #2}}}
 
 \newcommand{\ResumeContact}[1]{%
@@ -122,7 +122,7 @@
 
 \newcommand{\cvskill}[2]{%
   {\color{ResumeAccent}\bfseries #1}\par
-  \ResumeMarker\hspace{0.32em}#2\par\vspace{2.2pt}%
+  {\sloppy\ResumeMarker\hspace{0.32em}#2\par}\vspace{2.2pt}%
 }
 
 \newcommand{\cvcredential}[4]{%
