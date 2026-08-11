@@ -12,13 +12,14 @@
 \RequirePackage{ragged2e}
 
 \setmainfont{Source Serif 4}
-\definecolor{ResumeBlue}{HTML}{3485CC}
+\definecolor{ResumeAccent}{HTML}{FF4D00}
+\definecolor{ResumeLinkBlue}{HTML}{0000EE}
 \definecolor{ResumeBlack}{HTML}{111111}
 
 \hypersetup{
   colorlinks=true,
-  urlcolor=ResumeBlue,
-  linkcolor=ResumeBlue,
+  urlcolor=ResumeLinkBlue,
+  linkcolor=ResumeLinkBlue,
   pdfborder={0 0 0}
 }
 
@@ -38,11 +39,11 @@
 }
 
 \newcommand{\ResumeTagline}[1]{%
-  {\centering\fontsize{11pt}{12pt}\selectfont\color{ResumeBlue}#1\par}%
+  {\centering\fontsize{11pt}{12pt}\selectfont\color{ResumeAccent}#1\par}%
   \vspace{3pt}
 }
 
-\newcommand{\ResumeMarker}{\textcolor{ResumeBlue}{\raisebox{0.08ex}{\scriptsize$\blacktriangleright$}}}
+\newcommand{\ResumeMarker}{\textcolor{ResumeAccent}{\raisebox{0.08ex}{\scriptsize$\blacktriangleright$}}}
 \newcommand{\ContactSep}{\hspace{0.55em}\ResumeMarker\hspace{0.55em}}
 \newcommand{\SkillSep}{\penalty100\hspace{0.32em}\ResumeMarker\hspace{0.32em}}
 
@@ -75,7 +76,7 @@
   \endgroup
 }
 
-\newcommand{\cvtitle}[1]{{\color{ResumeBlue}\bfseries #1}}
+\newcommand{\cvtitle}[1]{{\color{ResumeAccent}\bfseries #1}}
 
 \newcommand{\cventry}[5]{%
   \Needspace{4.1\baselineskip}%
@@ -107,7 +108,7 @@
 }
 
 \newcommand{\cvskill}[2]{%
-  {\color{ResumeBlue}\bfseries #1}\par
+  {\color{ResumeAccent}\bfseries #1}\par
   \ResumeMarker\hspace{0.32em}#2\par\vspace{2.2pt}%
 }
 
