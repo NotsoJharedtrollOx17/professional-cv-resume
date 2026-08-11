@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{resume}[2026/08/11 Structured resume layout]
 
-\RequirePackage[letterpaper,left=0.55in,right=0.55in,top=0.42in,bottom=0.45in]{geometry}
+\RequirePackage[letterpaper,margin=0.65in]{geometry}
 \RequirePackage{fontspec}
 \RequirePackage{xcolor}
 \RequirePackage{amssymb}
@@ -26,17 +26,11 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\emergencystretch}{1em}
+\setlength{\RaggedRightRightskip}{0pt plus 4em}
 \color{ResumeBlack}
-\AtBeginDocument{\fontsize{9.75pt}{10.65pt}\selectfont\RaggedRight}
+\AtBeginDocument{\fontsize{10.1pt}{11.35pt}\selectfont\RaggedRight}
 \hyphenpenalty=10000
 \exhyphenpenalty=10000
-
-\newlength{\ResumeDateWidth}
-\setlength{\ResumeDateWidth}{1.45in}
-\newlength{\ResumeGapWidth}
-\setlength{\ResumeGapWidth}{0.12in}
-\newlength{\ResumeTextWidth}
-\setlength{\ResumeTextWidth}{\dimexpr\linewidth-\ResumeDateWidth-\ResumeGapWidth\relax}
 
 \newcommand{\ResumeName}[1]{%
   \begin{center}
@@ -67,17 +61,22 @@
 
 \newcommand{\cvsection}[1]{%
   \par\Needspace{2.4\baselineskip}%
-  \vspace{4pt}%
-  {\fontsize{12.5pt}{13.5pt}\selectfont\bfseries #1}\par
-  \vspace{1.5pt}%
+  \vspace{7pt}%
+  {\fontsize{13pt}{14pt}\selectfont\bfseries #1}\par
+  \vspace{2.5pt}%
 }
+
+\newlength{\ResumeDateReserve}
+\setlength{\ResumeDateReserve}{1.55in}
 
 \newcommand{\datedheading}[2]{%
   \par\noindent
-  \parbox[t]{\ResumeTextWidth}{\strut\RaggedRight #1}%
-  \hspace{\ResumeGapWidth}%
-  \parbox[t]{\ResumeDateWidth}{\strut\raggedleft\bfseries #2}%
-  \par
+  \begingroup
+    \hangindent=-\ResumeDateReserve
+    \hangafter=-1
+    \makebox[0pt][l]{\hspace{\linewidth}\llap{\bfseries #2}}%
+    #1\par
+  \endgroup
 }
 
 \newcommand{\cvtitle}[1]{{\color{ResumeBlue}\bfseries #1}}
@@ -93,22 +92,22 @@
 
 \newenvironment{cvitems}{%
   \begin{itemize}[
-    leftmargin=2.2em,
-    labelsep=0.55em,
-    itemsep=0pt,
-    topsep=0.4pt,
+    leftmargin=2.9em,
+    labelsep=0.65em,
+    itemsep=1.15pt,
+    topsep=1.5pt,
     parsep=0pt,
     partopsep=0pt,
     label={\raisebox{0.16ex}{\scriptsize$\bullet$}}
   ]
 }{%
-  \end{itemize}\vspace{2.2pt}
+  \end{itemize}\vspace{7pt}
 }
 
 \newcommand{\cvrecord}[3]{%
   \Needspace{3.2\baselineskip}%
   \datedheading{\cvtitle{#1}}{#2}%
-  #3\par\vspace{3pt}%
+  #3\par\vspace{7pt}%
 }
 
 \newcommand{\cvskill}[2]{%
@@ -119,5 +118,7 @@
 \newcommand{\cvcredential}[4]{%
   \Needspace{2.5\baselineskip}%
   \datedheading{\cvtitle{\href{#3}{#1}}}{#2}%
-  #4\par\vspace{4pt}%
+  #4\par\vspace{7pt}%
 }
+
+\newcommand{\ResumePageContinuation}{\null\vspace*{0.12in}}
