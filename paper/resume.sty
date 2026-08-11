@@ -1,0 +1,123 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resume}[2026/08/11 Structured resume layout]
+
+\RequirePackage[letterpaper,left=0.55in,right=0.55in,top=0.42in,bottom=0.45in]{geometry}
+\RequirePackage{fontspec}
+\RequirePackage{xcolor}
+\RequirePackage{amssymb}
+\RequirePackage{hyperref}
+\RequirePackage{enumitem}
+\RequirePackage{needspace}
+\RequirePackage{microtype}
+\RequirePackage{ragged2e}
+
+\setmainfont{Source Serif 4}
+\definecolor{ResumeBlue}{HTML}{3485CC}
+\definecolor{ResumeBlack}{HTML}{111111}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=ResumeBlue,
+  linkcolor=ResumeBlue,
+  pdfborder={0 0 0}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\color{ResumeBlack}
+\AtBeginDocument{\fontsize{9.75pt}{10.65pt}\selectfont\RaggedRight}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\newlength{\ResumeDateWidth}
+\setlength{\ResumeDateWidth}{1.45in}
+\newlength{\ResumeGapWidth}
+\setlength{\ResumeGapWidth}{0.12in}
+\newlength{\ResumeTextWidth}
+\setlength{\ResumeTextWidth}{\dimexpr\linewidth-\ResumeDateWidth-\ResumeGapWidth\relax}
+
+\newcommand{\ResumeName}[1]{%
+  \begin{center}
+    {\fontsize{16pt}{17pt}\selectfont\bfseries #1}\par
+  \end{center}
+  \vspace{-7pt}
+}
+
+\newcommand{\ResumeTagline}[1]{%
+  \begin{center}
+    {\fontsize{11pt}{12pt}\selectfont\color{ResumeBlue}#1}\par
+  \end{center}
+  \vspace{-7pt}
+}
+
+\newcommand{\ResumeMarker}{\textcolor{ResumeBlue}{\raisebox{0.08ex}{\scriptsize$\blacktriangleright$}}}
+\newcommand{\ContactSep}{\hspace{0.55em}\ResumeMarker\hspace{0.55em}}
+\newcommand{\SkillSep}{\penalty100\hspace{0.32em}\ResumeMarker\hspace{0.32em}}
+
+\newcommand{\ResumeContact}[1]{%
+  \par\noindent\rule{\linewidth}{1.25pt}\par
+  \vspace{3.5pt}
+  \begin{center}\small #1\end{center}
+  \vspace{-6.5pt}
+  \par\noindent\rule{\linewidth}{1.25pt}\par
+  \vspace{3pt}
+}
+
+\newcommand{\cvsection}[1]{%
+  \par\Needspace{2.4\baselineskip}%
+  \vspace{4pt}%
+  {\fontsize{12.5pt}{13.5pt}\selectfont\bfseries #1}\par
+  \vspace{1.5pt}%
+}
+
+\newcommand{\datedheading}[2]{%
+  \par\noindent
+  \parbox[t]{\ResumeTextWidth}{\strut\RaggedRight #1}%
+  \hspace{\ResumeGapWidth}%
+  \parbox[t]{\ResumeDateWidth}{\strut\raggedleft\bfseries #2}%
+  \par
+}
+
+\newcommand{\cvtitle}[1]{{\color{ResumeBlue}\bfseries #1}}
+
+\newcommand{\cventry}[5]{%
+  \Needspace{4.1\baselineskip}%
+  \datedheading{\cvtitle{#1}}{#2}%
+  {\itshape #3}\par
+  \if\relax\detokenize{#4}\relax\else
+    {\bfseries #4:} #5\par
+  \fi
+}
+
+\newenvironment{cvitems}{%
+  \begin{itemize}[
+    leftmargin=2.2em,
+    labelsep=0.55em,
+    itemsep=0pt,
+    topsep=0.4pt,
+    parsep=0pt,
+    partopsep=0pt,
+    label={\raisebox{0.16ex}{\scriptsize$\bullet$}}
+  ]
+}{%
+  \end{itemize}\vspace{2.2pt}
+}
+
+\newcommand{\cvrecord}[3]{%
+  \Needspace{3.2\baselineskip}%
+  \datedheading{\cvtitle{#1}}{#2}%
+  #3\par\vspace{3pt}%
+}
+
+\newcommand{\cvskill}[2]{%
+  {\color{ResumeBlue}\bfseries #1}\par
+  \ResumeMarker\hspace{0.32em}#2\par\vspace{2.2pt}%
+}
+
+\newcommand{\cvcredential}[4]{%
+  \Needspace{2.5\baselineskip}%
+  \datedheading{\cvtitle{\href{#3}{#1}}}{#2}%
+  #4\par\vspace{4pt}%
+}
