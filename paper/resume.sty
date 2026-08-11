@@ -33,17 +33,13 @@
 \exhyphenpenalty=10000
 
 \newcommand{\ResumeName}[1]{%
-  \begin{center}
-    {\fontsize{16pt}{17pt}\selectfont\bfseries #1}\par
-  \end{center}
-  \vspace{-7pt}
+  \par{\centering\fontsize{16pt}{17pt}\selectfont\bfseries #1\par}%
+  \vspace{3pt}
 }
 
 \newcommand{\ResumeTagline}[1]{%
-  \begin{center}
-    {\fontsize{11pt}{12pt}\selectfont\color{ResumeBlue}#1}\par
-  \end{center}
-  \vspace{-7pt}
+  {\centering\fontsize{11pt}{12pt}\selectfont\color{ResumeBlue}#1\par}%
+  \vspace{3pt}
 }
 
 \newcommand{\ResumeMarker}{\textcolor{ResumeBlue}{\raisebox{0.08ex}{\scriptsize$\blacktriangleright$}}}
@@ -52,11 +48,11 @@
 
 \newcommand{\ResumeContact}[1]{%
   \par\noindent\rule{\linewidth}{1.25pt}\par
-  \vspace{3.5pt}
-  \begin{center}\small #1\end{center}
-  \vspace{-6.5pt}
+  \vspace{4pt}
+  {\centering\small #1\par}%
+  \vspace{-1pt}
   \par\noindent\rule{\linewidth}{1.25pt}\par
-  \vspace{3pt}
+  \vspace{1.5pt}
 }
 
 \newcommand{\cvsection}[1]{%
