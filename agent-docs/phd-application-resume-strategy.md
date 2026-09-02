@@ -4,7 +4,7 @@
 
 This document is the tracked source of truth for the general PhD application resume and its three tailored branches. The artifact is an academically oriented two-page resume, not a strict publication-centered academic CV. It intentionally retains industry experience, all selected presentations, and both training credentials as evidence of breadth pending later admissions review.
 
-Historical materials under `agent-notes/` and `tmp/` informed this revision but are ignored by Git and are not build inputs.
+Historical reviews, transcript references, and rendered source materials are retained under `agent-docs/`; they inform this revision but are not build inputs. Temporary build artifacts remain under `tmp/`.
 
 ## General master architecture
 
