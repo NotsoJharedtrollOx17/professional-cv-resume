@@ -17,7 +17,7 @@ Historical materials under `agent-notes/` and `tmp/` informed this revision but 
 7. Technical Skills.
 8. Additional Training.
 
-The existing Source Serif 4 typography, orange accent, blue links, compact dates, Letter-page margins, and bullet system remain the visual baseline. Page two starts at Selected Public Projects. Space pressure is resolved by removing duplicated wording before changing qualifications, type size, or margins.
+The existing Source Serif 4 typography, bold black hierarchy, blue links, compact dates, Letter-page margins, and bullet system remain the visual baseline. Page two starts at Selected Public Projects. Space pressure is resolved by removing duplicated wording before changing qualifications, type size, or margins.
 
 ## Canonical claim ledger
 
@@ -34,6 +34,7 @@ The existing Source Serif 4 typography, orange accent, blue links, compact dates
 | Tutoring | 62 students; do not publish an attendance-visit total until duplicate records are reconciled |
 | Emotion Vectors | Partial replication; 4 Colab configurations; cleaned public corpus of 2,000 stories; do not imply every committed vector or plot was regenerated after cleanup from 2,010 |
 | BlueBoard | Tagged/released v1.0.0; 167 automated tests; Windows hardware demonstration; Linux port exists but full Linux physical qualification is not claimed |
+| Systems and development tools | Linux, Windows, Git/GitHub, OpenAI Codex, SDK/API integration, MIDI, and CI/CD testing |
 | TOEFL | TOEFL iBT 5.5/6.0 |
 | Publications | No standalone manuscript or preprint section until a complete stable manuscript exists |
 | Breadth items | Retain Emotion Vectors, Tizen, and both LHC presentation artifacts; retain IBM Data Science and McKinsey Forward training in every branch |
