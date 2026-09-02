@@ -30,8 +30,11 @@ From PowerShell, the equivalent command is:
 Push-Location paper
 New-Item -ItemType Directory -Force build | Out-Null
 xelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex
+xelatex -interaction=nonstopmode -halt-on-error -output-directory=build main.tex
 Pop-Location
 ```
+
+The résumé uses XeLaTeX and the `Source Serif 4` family declared in `paper/resume.sty`. On Windows, install the Source Serif 4 family for the current user before building; if compilation reports a missing font, confirm discovery in the LaTeX Workshop log.
 
 The second pass resolves footer page totals, hyperlinks, and PDF metadata. Compilation remains a manual step; generated PDFs are ignored by Git.
 
