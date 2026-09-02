@@ -9,13 +9,12 @@ Historical materials under `agent-notes/` and `tmp/` informed this revision but 
 ## General master architecture
 
 1. Identity, contact links, and professional summary.
-2. Research Interests.
-3. Education.
-4. Unified reverse-chronological Experience.
-5. Selected Public Projects.
-6. Selected Presentations.
-7. Technical Skills.
-8. Additional Training.
+2. Education.
+3. Unified reverse-chronological Experience.
+4. Selected Public Projects.
+5. Selected Presentations.
+6. Technical Skills.
+7. Additional Training.
 
 The existing Source Serif 4 typography, bold black hierarchy, blue links, compact dates, Letter-page margins, and bullet system remain the visual baseline. Page two starts at Selected Public Projects. Space pressure is resolved by removing duplicated wording before changing qualifications, type size, or margins.
 
@@ -26,7 +25,8 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 | Degree | `Ingeniero en Sistemas Computacionales`; English rendering `Computer Systems Engineering` |
 | Academic period | Coursework attended/completed Aug 2019-Dec 2023 |
 | Degree conferral | Nov 2024; do not conflate with thesis submission or professional examination |
-| Academic record | GPA 95.12/100; 260/260 credits; do not self-convert to a 4.0 scale |
+| Academic record | GPA 95.12/100; do not self-convert to a 4.0 scale or list the redundant credit count |
+| Selected coursework | Draw only from the transcript reference. In the general resume, sort the compact selection by grade, breaking ties by cross-program relevance; retain Differential and Integral Calculus, and exclude Operations Research and Simulation. |
 | Samsung | `Assistant Engineer - Open Innovation`, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
 | Thesis | Research Aug 2023-Feb 2024; submitted Jan 2024; professional examination passed Oct 7, 2024 |
 | Thesis interpretation | Descriptive and within-group pre/post evidence; do not claim causal improvement or a direct between-group inferential result |
@@ -41,12 +41,12 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 
 ## Branch matrix
 
-| Branch | Summary and interests | Coursework and skills | Project order |
+| Branch | Summary | Coursework and skills | Project order |
 |---|---|---|---|
 | `main` | General AI/ML and systems identity | Comprehensive verified list | Affective Representations, then BlueBoard |
 | `ucsd-hdsi-phd` | Applied ML, data science, representation analysis, reproducibility | Prioritize linear algebra, statistics, programming, scientific Python, and quantitative evaluation | Affective Representations, then BlueBoard |
 | `ucsd-cse-phd` | AI/ML systems, resource-constrained software, reproducible engineering | Prioritize C/C++, Python, discrete mathematics, data structures, architecture, operating systems, formal languages, testing, CI, and SDK integration | BlueBoard, then Affective Representations |
-| `uci-sdsu-computational-science-phd` | Scientific ML, numerical computation, inspectable computational research | Prioritize linear algebra, differential equations, probability/statistics, numerical methods, operations research, simulation, Python, and C/C++ | Affective Representations, then BlueBoard |
+| `uci-sdsu-computational-science-phd` | Scientific ML, numerical computation, inspectable computational research | Prioritize calculus, linear algebra, differential equations, probability/statistics, numerical methods, Python, and C/C++ | Affective Representations, then BlueBoard |
 
 Dates, titles, metrics, section inventory, presentation inventory, and training inventory must not diverge across branches. Potential faculty advisers do not belong in the resume; faculty fit remains part of the statement of purpose and application fields.
 
