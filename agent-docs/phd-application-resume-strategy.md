@@ -26,15 +26,16 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 | Academic period | Coursework attended/completed Aug 2019-Dec 2023 |
 | Degree conferral | Nov 2024; do not conflate with thesis submission or professional examination |
 | Academic record | GPA 95.12/100; do not self-convert to a 4.0 scale or list the redundant credit count |
-| Selected coursework | Draw only from the transcript reference. In the general resume, sort the compact selection by grade, breaking ties by cross-program relevance; retain Differential and Integral Calculus, and exclude Operations Research and Simulation. |
+| Selected coursework | Draw only from the transcript reference. The general selection emphasizes high-scoring mathematical and theoretical foundations, including Discrete Mathematics and Differential and Integral Calculus; exclude Operations Research and Simulation. |
 | Samsung | `Assistant Engineer - Open Innovation`, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
 | Thesis | Research Aug 2023-Feb 2024; submitted Jan 2024; professional examination passed Oct 7, 2024 |
 | Thesis interpretation | Descriptive and within-group pre/post evidence; do not claim causal improvement or a direct between-group inferential result |
 | ENLACE | Larger DNN ROC AUC 0.9724 versus GNN 0.9751; omit disputed input and hidden-layer dimensions |
 | Tutoring | 62 students; do not publish an attendance-visit total until duplicate records are reconciled |
-| Emotion Vectors | Partial replication; 4 Colab configurations; cleaned public corpus of 2,000 stories; do not imply every committed vector or plot was regenerated after cleanup from 2,010 |
-| BlueBoard | Tagged/released v1.0.0; 167 automated tests; Windows hardware demonstration; Linux port exists but full Linux physical qualification is not claimed |
-| Systems and development tools | Linux, Windows, Git/GitHub, OpenAI Codex, SDK/API integration, MIDI, and CI/CD testing |
+| Emotion Vectors | Partial replication, Apr-Jul 2026; 4 Colab configurations; cleaned public corpus of 2,000 stories; do not imply every committed vector or plot was regenerated after cleanup from 2,010 |
+| BlueBoard | Tagged v1.0.0 build demonstrated on Windows; 167 automated tests maintained with Windows/Linux CI; Linux port exists but full Linux physical qualification is not claimed |
+| BlueBoard wording review | The repository currently contains a release-language contradiction; the résumé uses bounded demonstration/maintenance wording until the applicant reconciles the repository wording manually. |
+| Systems and development tools | Linux, Windows, Git/GitHub, SDK/API integration, MIDI/SysEx, automated testing and CI |
 | TOEFL | TOEFL iBT 5.5/6.0 |
 | Publications | No standalone manuscript or preprint section until a complete stable manuscript exists |
 | Breadth items | Retain Emotion Vectors, Tizen, and both LHC presentation artifacts; retain IBM Data Science and McKinsey Forward training in every branch |
