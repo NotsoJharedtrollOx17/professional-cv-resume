@@ -7,7 +7,7 @@ Maintainable two-page LaTeX resume for PhD applications in data science, compute
 - `paper/main.tex`: resume content, section order, links, and PDF metadata.
 - `paper/resume.sty`: typography, margins, colors, spacing, footer, lists, and reusable entry commands.
 - `agent-docs/phd-application-resume-strategy.md`: canonical claims, branch matrix, permitted differences, and validation checklist.
-- `agent-notes/` and `tmp/`: ignored historical inputs and rendered references; neither is a build dependency.
+- `agent-docs/`: canonical strategy plus historical reviews, transcript references, and rendered source materials; these are documentation inputs, not build dependencies.
 
 ## Branches
 
