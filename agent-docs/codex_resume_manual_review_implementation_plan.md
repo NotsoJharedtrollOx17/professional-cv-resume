@@ -183,7 +183,7 @@ If the repository later contains a stable manuscript posted to a recognized prep
 Keep the engineering project concise and affirmative. Use:
 
 ```latex
-\cvexperience{BlueBoard - BOSS Katana CLI Bridge}{Aug 2026 -- Sep 2026}
+\cvexperience{iRig BlueBoard - BOSS Katana CLI Bridge}{Aug 2026 -- Sep 2026}
   {Independent software project}{Release}{\href{https://github.com/NotsoJharedtrollOx17/BlueBoard-BOSSKatana-Pedalboard/tree/v1.0.0}{v1.0.0 repository}}
 \begin{cvitems}
   \item Built and tagged v1.0.0 of a Python CLI that maps iRig BlueBoard BLE-MIDI input to controls on the original BOSS KATANA-100 MkI amplifier over USB-MIDI.
@@ -368,10 +368,10 @@ Do not add Fortran as coursework or a skill unless independently supported.
 
 | Branch | First project | Second project |
 |---|---|---|
-| `main` | Partial Replication of Anthropic's Emotion Vectors | BlueBoard - BOSS Katana CLI Bridge |
-| `ucsd-hdsi-phd` | Partial Replication of Anthropic's Emotion Vectors | BlueBoard - BOSS Katana CLI Bridge |
-| `ucsd-cse-phd` | BlueBoard - BOSS Katana CLI Bridge | Partial Replication of Anthropic's Emotion Vectors |
-| `uci-sdsu-computational-science-phd` | Partial Replication of Anthropic's Emotion Vectors | BlueBoard - BOSS Katana CLI Bridge |
+| `main` | Partial Replication of Anthropic's Emotion Vectors | iRig BlueBoard - BOSS Katana CLI Bridge |
+| `ucsd-hdsi-phd` | Partial Replication of Anthropic's Emotion Vectors | iRig BlueBoard - BOSS Katana CLI Bridge |
+| `ucsd-cse-phd` | iRig BlueBoard - BOSS Katana CLI Bridge | Partial Replication of Anthropic's Emotion Vectors |
+| `uci-sdsu-computational-science-phd` | Partial Replication of Anthropic's Emotion Vectors | iRig BlueBoard - BOSS Katana CLI Bridge |
 
 Do not add a third project merely to fill space. Reassess future projects only if they provide stronger program-specific evidence than one of the two current entries.
 
