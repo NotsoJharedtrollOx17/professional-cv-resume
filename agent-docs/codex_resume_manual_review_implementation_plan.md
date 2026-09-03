@@ -48,7 +48,7 @@ Apply these rules:
 
 | Annotation or concern | Decision | Rationale |
 |---|---|---|
-| Use a title that explicitly says `Partial Replication` | Accept | This is more transparent than `Affective Representation Analysis and Activation Steering` and prevents the project from sounding like a completed scholarly article. |
+| Use a title that explicitly says `Partial Replication` | Accept | This makes the scope transparent and prevents the project from sounding like a completed scholarly article. |
 | The replication's last bullet is not conclusive enough | Accept | Replace the generic limitations inventory with the actual observed patterns and a bounded interpretation. |
 | Remove the Linux physical-qualification disclaimer from BlueBoard | Accept for the resume | The disclaimer is too operational and defensive for a resume. Retain the detailed support boundary in the repository. The resume must still avoid claiming Linux hardware validation. |
 | Replace `fully connected networks` with DNN terminology | Accept with precision | The public implementation contains multiple linear/ReLU layers and is explicitly described as Small and Big DNN models. Use `fully connected PyTorch DNNs` or `fully connected neural networks (DNNs)`. |
@@ -60,7 +60,6 @@ Apply these rules:
 | Keep CSE's Object-Oriented Programming and Software Engineering | Accept | These courses support the systems/software narrative. Restore Linear Algebra and Probability and Statistics by removing less relevant calculus items. |
 | Reconsider `scientific ML` | Accept | Replace this broad label with the concrete evidence: particle-tracking classification and reproducible ML evaluation. |
 | Reorder the LHC presentations like the other presentations | Accept structurally | Flatten them into individual presentation records in reverse chronological order. Preserve the author order printed on each source artifact. |
-| Add OpenAI Codex to Technical Skills | Reject | It is a development aid rather than an admissions qualification. It adds little evidence and can distract from independent ownership. Do not add Codex or Prompt Engineering. |
 | Replace `MIDI/SysEx` with `MIDI` everywhere | Partially accept | Retain `MIDI/SysEx` in the general and CSE variants because SysEx state synchronization is a real implementation detail. Omit the item entirely from HDSI and UCI-SDSU if it is not useful there. Do not weaken the CSE evidence to generic `MIDI`. |
 
 ## Shared structural changes
@@ -143,11 +142,7 @@ Use:
   {Independent research project}{Code and results}{\href{https://github.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2}{Public repository}}
 ```
 
-This deliberately replaces:
-
-- `Affective Representation Analysis and Activation Steering` as the headline;
-- the self-designated occupational label `Independent Researcher`;
-- the publication-adjacent label `Artifact`.
+The neutral role and output labels distinguish the work from employment and from a scholarly publication.
 
 The full formal project/presentation title can remain in the presentation record if it matches the actual slide title.
 
@@ -218,8 +213,6 @@ Use `Oral presentation` and `Poster presentation` consistently. Do not imply pee
 
 ### Global rules
 
-- Do not add OpenAI Codex.
-- Do not add Prompt Engineering.
 - Prefer capabilities demonstrated by work or coursework.
 - Keep `MIDI/SysEx` only where it reinforces the engineering narrative.
 - Replace vague `scientific ML` prose with specific methods or the particle-tracking application.
@@ -390,21 +383,19 @@ Do not expand either training entry with bullets.
 
 ## Documentation synchronization
 
-After revising the resumes, update the agent documents so future Codex sessions do not restore superseded wording.
+After revising the resumes, update the agent documents so future maintenance does not restore superseded wording.
 
 Required updates:
 
 - make this plan or its merged equivalent the active wording authority;
 - update `phd-application-resume-strategy.md` with the new project title and result bullet;
 - mark the emotion-vectors work explicitly as a non-preprint public project;
-- remove instructions to add OpenAI Codex;
 - record the accepted Samsung title format;
 - preserve the BlueBoard Windows/Linux evidence boundary;
-- replace the obsolete `uci-sdsu-compsci-phd` branch name;
 - mark historical reviews as archival rather than current implementation instructions;
 - ensure the same dates, institution name, job title, metrics, and project status appear in all branches.
 
-## Implementation order for Codex
+## Implementation order
 
 1. Fetch all remote branches and inspect the working tree before editing.
 2. Apply shared factual and wording changes on `main` first.
@@ -433,7 +424,6 @@ Required updates:
 - [ ] The thesis states its descriptive result without claiming causality or significance.
 - [ ] The ENLACE entry uses DNN terminology and does not claim superiority or measured efficiency.
 - [ ] Presentation author order matches each source artifact.
-- [ ] OpenAI Codex and Prompt Engineering are absent.
 - [ ] HDSI emphasizes quantitative evaluation and reproducibility.
 - [ ] CSE emphasizes systems, implementation, testing, and CS foundations.
 - [ ] UCI-SDSU includes computational methods, mathematical preparation, and scientific programming.
