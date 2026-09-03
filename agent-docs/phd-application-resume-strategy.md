@@ -33,7 +33,7 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 | ENLACE | Larger DNN ROC AUC 0.9724 versus GNN 0.9751; omit disputed input and hidden-layer dimensions |
 | Tutoring | 62 students; do not publish an attendance-visit total until duplicate records are reconciled |
 | Emotion Vectors | Public independent partial-replication project, not a preprint or publication; Apr-Jul 2026; 4 Colab configurations; cleaned public corpus of 2,000 stories; report bounded observations without implying every committed artifact was regenerated after cleanup from 2,010 |
-| BlueBoard | Tagged v1.0.0 build demonstrated on Windows; 167 automated tests maintained with Windows/Linux CI; Linux port exists but full Linux physical qualification is not claimed |
+| iRig BlueBoard - BOSS Katana CLI Bridge | Tagged v1.0.0 build demonstrated on Windows; 167 automated tests maintained with Windows/Linux CI; Linux port exists but full Linux physical qualification is not claimed |
 | BlueBoard wording review | The repository currently contains a release-language contradiction; the résumé uses bounded demonstration/maintenance wording until the applicant reconciles the repository wording manually. |
 | Systems and development tools | Linux, Windows, Git/GitHub, SDK/API integration, MIDI/SysEx, automated testing and CI |
 | TOEFL | TOEFL iBT 5.5/6.0 |
@@ -44,10 +44,10 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 
 | Branch | Summary | Coursework and skills | Project order |
 |---|---|---|---|
-| `main` | General AI/ML systems identity | Comprehensive verified list | Partial Replication, then BlueBoard |
-| `ucsd-hdsi-phd` | Applied ML, data science, representation analysis, reproducibility | Prioritize linear algebra, statistics, programming, scientific Python, and quantitative evaluation | Partial Replication, then BlueBoard |
-| `ucsd-cse-phd` | AI/ML systems, resource-constrained software, reproducible engineering | Prioritize C/C++, Python, discrete mathematics, data structures, architecture, operating systems, formal languages, testing, CI, and SDK integration | BlueBoard, then Partial Replication |
-| `uci-sdsu-computational-science-phd` | Computational science, numerical computation, and reproducible ML evaluation | Prioritize calculus, linear algebra, differential equations, probability/statistics, numerical methods, Python, and C/C++ | Partial Replication, then BlueBoard |
+| `main` | General AI/ML systems identity | Comprehensive verified list | Partial Replication, then iRig BlueBoard - BOSS Katana CLI Bridge |
+| `ucsd-hdsi-phd` | Applied ML, data science, representation analysis, reproducibility | Prioritize linear algebra, statistics, programming, scientific Python, and quantitative evaluation | Partial Replication, then iRig BlueBoard - BOSS Katana CLI Bridge |
+| `ucsd-cse-phd` | AI/ML systems, resource-constrained software, reproducible engineering | Prioritize C/C++, Python, discrete mathematics, data structures, architecture, operating systems, formal languages, testing, CI, and SDK integration | iRig BlueBoard - BOSS Katana CLI Bridge, then Partial Replication |
+| `uci-sdsu-computational-science-phd` | Computational science, numerical computation, and reproducible ML evaluation | Prioritize calculus, linear algebra, differential equations, probability/statistics, numerical methods, Python, and C/C++ | Partial Replication, then iRig BlueBoard - BOSS Katana CLI Bridge |
 
 Dates, titles, metrics, section inventory, presentation inventory, and training inventory must not diverge across branches. Potential faculty advisers do not belong in the resume; faculty fit remains part of the statement of purpose and application fields.
 
