@@ -1,4 +1,6 @@
-# Codex Handoff: PhD Resume Repository Second-Pass Review
+# Archived Codex Handoff: PhD Resume Repository Second-Pass Review
+
+> Archival review only. For current implementation decisions, follow `codex_resume_manual_review_implementation_plan.md` and `phd-application-resume-strategy.md`.
 
 ## Purpose
 
