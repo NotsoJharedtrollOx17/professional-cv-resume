@@ -30,7 +30,7 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 | Samsung | Applicant-confirmed title `Open Innovation Engineer`, supervisor Jorge Alonso Pulido, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
 | Thesis | Research Aug 2023-Feb 2024; submitted Jan 2024; professional examination passed Oct 7, 2024 |
 | Thesis interpretation | Descriptive and within-group pre/post evidence; do not claim causal improvement or a direct between-group inferential result |
-| ENLACE | Larger DNN ROC AUC 0.9724 versus GNN 0.9751; omit disputed input and hidden-layer dimensions |
+| ENLACE | Larger DNN ROC AUC 0.9724, unexpectedly near the lab GNN baseline's 0.9751; omit disputed input and hidden-layer dimensions |
 | Tutoring | 62 students; do not publish an attendance-visit total until duplicate records are reconciled |
 | Emotion Vectors | Public independent partial-replication project, not a preprint or publication; Apr-Jul 2026; 4 Colab configurations; cleaned public corpus of 2,000 stories; report bounded observations without implying every committed artifact was regenerated after cleanup from 2,010 |
 | iRig BlueBoard - BOSS Katana CLI Bridge | Tagged v1.0.0 build demonstrated on Windows; 167 automated tests maintained with Windows/Linux CI; Linux port exists but full Linux physical qualification is not claimed |
