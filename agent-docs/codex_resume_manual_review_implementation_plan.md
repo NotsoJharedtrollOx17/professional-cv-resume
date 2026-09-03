@@ -54,7 +54,7 @@ Apply these rules:
 | Replace `fully connected networks` with DNN terminology | Accept with precision | The public implementation contains multiple linear/ReLU layers and is explicitly described as Small and Big DNN models. Use `fully connected PyTorch DNNs` or `fully connected neural networks (DNNs)`. |
 | Add the full parent institution, Tecnologico Nacional de Mexico | Accept | Use the same full institution form in every branch if it matches the academic records. |
 | Change the Samsung title to `Open Innovation Engineer` | Accept by applicant confirmation | Use `Open Innovation Engineer` consistently in every branch and application document. |
-| Do not add the Samsung supervisor | Accept | The current resume does not list a Samsung supervisor. Keep it that way. Recommender information belongs elsewhere. |
+| Add the Samsung supervisor | Accept by applicant confirmation | Use `Jorge Alonso Pulido` consistently in every resume branch. |
 | Rework Samsung's language/speech/assistant wording | Accept | Replace a topical catalogue with concrete engineering scope and ownership. |
 | Add Formal Languages and Automata I to HDSI | Accept if layout remains clean | It strengthens theoretical preparation, though linear algebra, probability/statistics, and numerical methods remain higher priority for HDSI. |
 | Keep CSE's Object-Oriented Programming and Software Engineering | Accept | These courses support the systems/software narrative. Restore Linear Algebra and Probability and Statistics by removing less relevant calculus items. |
@@ -84,7 +84,7 @@ Applicant-confirmed form:
 \cvexperience{Open Innovation Engineer}{Feb 2024 -- Present}
 ```
 
-Do not add a Samsung supervisor line.
+Use `Samsung Research Tijuana` as the organization, with `Supervisor: Jorge Alonso Pulido` on the supporting line.
 
 ### Samsung bullets
 

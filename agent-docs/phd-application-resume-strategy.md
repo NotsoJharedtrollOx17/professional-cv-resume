@@ -27,7 +27,7 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 | Degree conferral | Nov 2024; do not conflate with thesis submission or professional examination |
 | Academic record | GPA 95.12/100; do not self-convert to a 4.0 scale or list the redundant credit count |
 | Selected coursework | Draw only from the transcript reference. The general selection emphasizes high-scoring mathematical and theoretical foundations, including Discrete Mathematics and Differential and Integral Calculus; exclude Operations Research and Simulation. |
-| Samsung | Applicant-confirmed title `Open Innovation Engineer`, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
+| Samsung | Applicant-confirmed title `Open Innovation Engineer`, supervisor Jorge Alonso Pulido, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
 | Thesis | Research Aug 2023-Feb 2024; submitted Jan 2024; professional examination passed Oct 7, 2024 |
 | Thesis interpretation | Descriptive and within-group pre/post evidence; do not claim causal improvement or a direct between-group inferential result |
 | ENLACE | Larger DNN ROC AUC 0.9724 versus GNN 0.9751; omit disputed input and hidden-layer dimensions |
