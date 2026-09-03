@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document is the tracked source of truth for the general PhD application resume and its three tailored branches. The artifact is an academically oriented two-page resume, not a strict publication-centered academic CV. It intentionally retains industry experience, all selected presentations, and both training credentials as evidence of breadth pending later admissions review.
+This document is the concise source of truth for the general PhD application resume and its three tailored branches. The detailed active wording authority is `codex_resume_manual_review_implementation_plan.md`; earlier reviews are archival. The artifact is an academically oriented two-page resume, not a strict publication-centered academic CV.
 
 Historical reviews, transcript references, and rendered source materials are retained under `agent-docs/`; they inform this revision but are not build inputs. Temporary build artifacts remain under `tmp/`.
 
@@ -27,12 +27,12 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 | Degree conferral | Nov 2024; do not conflate with thesis submission or professional examination |
 | Academic record | GPA 95.12/100; do not self-convert to a 4.0 scale or list the redundant credit count |
 | Selected coursework | Draw only from the transcript reference. The general selection emphasizes high-scoring mathematical and theoretical foundations, including Discrete Mathematics and Differential and Integral Calculus; exclude Operations Research and Simulation. |
-| Samsung | `Assistant Engineer - Open Innovation`, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
+| Samsung | Applicant-confirmed title `Open Innovation Engineer`, Feb 2024-present; 10+ prototypes, 4 demonstrations, and South Korea workshop language retained as disclosure-approved public claims |
 | Thesis | Research Aug 2023-Feb 2024; submitted Jan 2024; professional examination passed Oct 7, 2024 |
 | Thesis interpretation | Descriptive and within-group pre/post evidence; do not claim causal improvement or a direct between-group inferential result |
 | ENLACE | Larger DNN ROC AUC 0.9724 versus GNN 0.9751; omit disputed input and hidden-layer dimensions |
 | Tutoring | 62 students; do not publish an attendance-visit total until duplicate records are reconciled |
-| Emotion Vectors | Partial replication, Apr-Jul 2026; 4 Colab configurations; cleaned public corpus of 2,000 stories; do not imply every committed vector or plot was regenerated after cleanup from 2,010 |
+| Emotion Vectors | Public independent partial-replication project, not a preprint or publication; Apr-Jul 2026; 4 Colab configurations; cleaned public corpus of 2,000 stories; report bounded observations without implying every committed artifact was regenerated after cleanup from 2,010 |
 | BlueBoard | Tagged v1.0.0 build demonstrated on Windows; 167 automated tests maintained with Windows/Linux CI; Linux port exists but full Linux physical qualification is not claimed |
 | BlueBoard wording review | The repository currently contains a release-language contradiction; the résumé uses bounded demonstration/maintenance wording until the applicant reconciles the repository wording manually. |
 | Systems and development tools | Linux, Windows, Git/GitHub, SDK/API integration, MIDI/SysEx, automated testing and CI |
@@ -44,10 +44,10 @@ The existing Source Serif 4 typography, bold black hierarchy, blue links, compac
 
 | Branch | Summary | Coursework and skills | Project order |
 |---|---|---|---|
-| `main` | General AI/ML and systems identity | Comprehensive verified list | Affective Representations, then BlueBoard |
-| `ucsd-hdsi-phd` | Applied ML, data science, representation analysis, reproducibility | Prioritize linear algebra, statistics, programming, scientific Python, and quantitative evaluation | Affective Representations, then BlueBoard |
-| `ucsd-cse-phd` | AI/ML systems, resource-constrained software, reproducible engineering | Prioritize C/C++, Python, discrete mathematics, data structures, architecture, operating systems, formal languages, testing, CI, and SDK integration | BlueBoard, then Affective Representations |
-| `uci-sdsu-computational-science-phd` | Scientific ML, numerical computation, inspectable computational research | Prioritize calculus, linear algebra, differential equations, probability/statistics, numerical methods, Python, and C/C++ | Affective Representations, then BlueBoard |
+| `main` | General AI/ML systems identity | Comprehensive verified list | Partial Replication, then BlueBoard |
+| `ucsd-hdsi-phd` | Applied ML, data science, representation analysis, reproducibility | Prioritize linear algebra, statistics, programming, scientific Python, and quantitative evaluation | Partial Replication, then BlueBoard |
+| `ucsd-cse-phd` | AI/ML systems, resource-constrained software, reproducible engineering | Prioritize C/C++, Python, discrete mathematics, data structures, architecture, operating systems, formal languages, testing, CI, and SDK integration | BlueBoard, then Partial Replication |
+| `uci-sdsu-computational-science-phd` | Computational science, numerical computation, and reproducible ML evaluation | Prioritize calculus, linear algebra, differential equations, probability/statistics, numerical methods, Python, and C/C++ | Partial Replication, then BlueBoard |
 
 Dates, titles, metrics, section inventory, presentation inventory, and training inventory must not diverge across branches. Potential faculty advisers do not belong in the resume; faculty fit remains part of the statement of purpose and application fields.
 
@@ -62,7 +62,7 @@ Dates, titles, metrics, section inventory, presentation inventory, and training 
 - [ ] `git diff --check` passes.
 - [ ] Filtered ChkTeX passes for `paper/main.tex`.
 - [ ] All contact, project, report, presentation, and credential links resolve.
-- [ ] User runs XeLaTeX twice through LaTeX Workshop on each branch.
+- [ ] Codex runs XeLaTeX twice and visually inspects both rendered pages on each branch.
 - [ ] Each PDF is exactly two US Letter pages with selectable text and embedded fonts.
 - [ ] No clipping, overlap, orphaned heading, broken glyph, date collision, or footer error is visible.
 - [ ] Page two begins at Selected Public Projects and remains visually balanced.
