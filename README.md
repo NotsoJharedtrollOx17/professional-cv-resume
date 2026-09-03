@@ -6,7 +6,8 @@ Maintainable two-page LaTeX resume for PhD applications in data science, compute
 
 - `paper/main.tex`: resume content, section order, links, and PDF metadata.
 - `paper/resume.sty`: typography, margins, colors, spacing, footer, lists, and reusable entry commands.
-- `agent-docs/phd-application-resume-strategy.md`: canonical claims, branch matrix, permitted differences, and validation checklist.
+- `agent-docs/codex_resume_manual_review_implementation_plan.md`: active detailed wording and tailoring authority.
+- `agent-docs/phd-application-resume-strategy.md`: concise canonical claims, branch matrix, and validation checklist.
 - `agent-docs/`: canonical strategy plus historical reviews, transcript references, and rendered source materials; these are documentation inputs, not build dependencies.
 
 ## Branches
@@ -18,7 +19,7 @@ Maintainable two-page LaTeX resume for PhD applications in data science, compute
 | `ucsd-cse-phd` | UC San Diego Computer Science and Engineering PhD |
 | `uci-sdsu-computational-science-phd` | UCI-SDSU Joint PhD in Computational Science |
 
-Across branches, dates, titles, metrics, project status, presentations, and training remain identical. Tailoring is limited to the summary and interests, coursework selection, skill order, project priority, bullet emphasis, metadata, and final filename.
+Across branches, dates, titles, metrics, project status, presentations, and training remain identical. Tailoring is limited to the headline, summary, coursework selection, skill order, project priority, metadata, and final filename.
 
 ## Build
 
