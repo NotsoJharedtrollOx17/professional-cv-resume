@@ -63,9 +63,9 @@ $failures = [System.Collections.Generic.List[string]]::new()
 
 $branchHeadlinePatterns = @{
     'main' = '\\ResumeTagline\{AI/ML Systems Engineer\}'
-    'ucsd-hdsi-phd' = '\\ResumeTagline\{AI/ML Engineer \\TaglineSep Reproducible Machine Learning and Representation Analysis\}'
-    'ucsd-cse-phd' = '\\ResumeTagline\{AI/ML Systems Engineer \\TaglineSep Embedded AI and Software Systems\}'
-    'uci-sdsu-computational-science-phd' = '\\ResumeTagline\{Computational Science and AI/ML Engineer \\TaglineSep Scientific Computing and Model Evaluation\}'
+    'ucsd-hdsi-phd' = '\\ResumeTagline\{AI/ML Systems Engineer\}'
+    'ucsd-cse-phd' = '\\ResumeTagline\{AI/ML Systems Engineer\}'
+    'uci-sdsu-computational-science-phd' = '\\ResumeTagline\{AI/ML Systems Engineer\}'
 }
 
 foreach ($branch in $branches) {
