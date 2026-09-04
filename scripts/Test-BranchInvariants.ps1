@@ -15,16 +15,20 @@ $branches = @(
 $requiredPatterns = [ordered]@{
     'Samsung title and dates' = '\\cvexperience\{Open Innovation Engineer\}\{Feb 2024 -- Present\}'
     'Samsung supervisor' = '\{Samsung Research Tijuana\}\{Supervisor\}\{Jorge Alonso Pulido Trujillo\}'
+    'Ongoing Samsung tense' = '\\item Develop and evaluate 10\+ AI prototypes'
     'Descriptive thesis outcome' = 'gains in both groups without a clear advantage for the digitally assisted group'
     'ENLACE comparison' = '0\.9724 ROC AUC versus 0\.9751 for the lab GNN baseline'
     'Emotion project dates' = '\\cvexperience\{Partial Replication of Anthropic''s Emotion Vectors\}\{Apr 2026 -- Jul 2026\}'
+    'Emotion preprint source' = 'preprint-EmotionVectorExtraction-Gemma4-GPT2\}\{Preprint source\}'
+    'Emotion replication repository' = 'EmotionVectorExtraction-Gemma4-GPT2\}\{Replication repository\}'
     'BlueBoard project dates' = '\\cvexperience\{iRig BlueBoard - BOSS Katana CLI Bridge\}\{Aug 2026 -- Sep 2026\}'
-    'BlueBoard test scope' = 'Included 167 automated tests at v1\.0\.0, with Windows/Linux CI; demonstrated the tagged build with the target hardware on Windows\.'
+    'BlueBoard test and platform scope' = 'Included 167 automated tests at v1\.0\.0 and Windows/Linux CI; completed target-hardware validation on Windows and 64-bit Linux Mint 22\.2 for the original KATANA-100 MkI\.'
     'September ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Bilingual slides'
     'August ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Poster'
     'IBM credential' = 'IBM Data Science Professional Certificate'
     'McKinsey credential' = 'McKinsey\.org Forward Program'
     'TOEFL notation' = 'TOEFL iBT: 5\.5/6\.0'
+    'CI/CD testing label' = 'Automated and CI/CD Testing'
 }
 
 $forbiddenPatterns = [ordered]@{
@@ -33,6 +37,8 @@ $forbiddenPatterns = [ordered]@{
     'Subjective ENLACE interpretation' = 'unexpectedly (near|close)'
     'Old poster author order' = '\\textbf\{A\. J\. Flores-Azcona\} and A\. D\. Dennis-Hernandez.*Poster'
     'Unscoped BlueBoard test wording' = 'supported by 167 tests and a Windows hardware demonstration'
+    'Stale Windows-only BlueBoard validation' = 'demonstrated the tagged build with the target hardware on Windows'
+    'Stale Emotion status label' = '\{Code and results\}'
 }
 
 $supportPaths = @(
