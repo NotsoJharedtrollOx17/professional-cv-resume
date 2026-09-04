@@ -44,8 +44,8 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 
 - Title: `Partial Replication of Anthropic's Emotion Vectors`.
 - Dates: `Apr 2026 -- Jul 2026`.
-- Role/output labels: `Independent research project`; `Preprint and code`.
-- Link both the public unreviewed preprint source and the replication repository.
+- Role/output labels: `Independent research project`; `Technical report and code`.
+- Link both the public unreviewed technical report and the replication repository.
 - Keep the project under `Selected Public Projects`; do not move it to a standalone Publications section until it has a persistent archive identifier or has completed formal publication.
 - Maintain the distinction between the cleaned 2,000-story corpus and older derived artifacts.
 
