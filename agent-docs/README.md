@@ -58,7 +58,7 @@ List A. D. Dennis-Hernandez first and A. J. Flores-Azcona second on both 2023 EN
 
 - Make evidence-backed edits on `main` first, then port shared corrections without overwriting branch tailoring.
 - Generated PDFs and rendered QA images remain ignored.
-- Do not add a publication section until a stable public scholarly artifact exists.
+- Do not add a standalone Publications section until the work has a persistent archive identifier or has completed formal publication.
 - Do not add faculty names, unverified impact metrics, architecture dimensions, Linux hardware parity, causal thesis language, or a tutoring visit count.
 - Do not push branches unless the applicant explicitly authorizes the named remote and branches.
 
