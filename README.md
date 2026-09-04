@@ -1,14 +1,15 @@
 # Local LaTeX PhD Application Resume
 
-Maintainable two-page LaTeX resume for PhD applications in data science, computer science, and computational science. The `main` branch is the factual general master; three local branches tailor emphasis without changing the underlying chronology or evidence boundaries.
+Maintainable two-page LaTeX resume for PhD applications in data science, computer science, and computational science. The `main` branch is the factual general master; three program-specific branches tailor emphasis without changing the underlying chronology or evidence boundaries.
 
 ## Files
 
 - `paper/main.tex`: resume content, section order, links, and PDF metadata.
 - `paper/resume.sty`: typography, margins, colors, spacing, footer, lists, and reusable entry commands.
-- `agent-docs/codex_resume_manual_review_implementation_plan.md`: active detailed wording and tailoring authority.
-- `agent-docs/phd-application-resume-strategy.md`: concise canonical claims, branch matrix, and validation checklist.
-- `agent-docs/`: canonical strategy plus historical reviews, transcript references, and rendered source materials; these are documentation inputs, not build dependencies.
+- `agent-docs/README.md`: documentation authority, current status, and unresolved decisions.
+- `agent-docs/canonical-facts-and-evidence.md`: canonical claim ledger, evidence boundaries, and transcript reference.
+- `agent-docs/resume-branch-maintenance.md`: branch tailoring, editing workflow, build instructions, and validation checklist.
+- `agent-docs/abraham_flores_azcona_general_phd_resume.pdf`: historical web-generated reference; it is not a build dependency.
 
 ## Branches
 
@@ -52,7 +53,7 @@ Before compiling, run:
 
 ```powershell
 git diff --check
-chktex -q -n1 -n8 -n12 -n13 paper/main.tex
+chktex -q -n1 -n8 -n12 -n13 -n24 -n36 paper/main.tex
 ```
 
 These checks do not validate PDF layout. After the two-pass build, review both US Letter pages for clipping, orphaned headings, date collisions, page balance, footer correctness, embedded fonts, selectable text, and live links.
