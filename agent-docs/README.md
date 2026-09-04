@@ -33,7 +33,7 @@ All superseded Markdown reviews, roasts, handoffs, audits, and candidate-project
 | `ucsd-cse-phd` | UC San Diego Computer Science and Engineering PhD |
 | `uci-sdsu-computational-science-phd` | UCI-SDSU Joint PhD in Computational Science |
 
-Shared chronology, titles, metrics, project status, presentation inventory, and training inventory must remain identical. Only the headline, summary, selected coursework, skill selection/order, project priority, PDF metadata, footer label, and output filename may vary by program.
+Shared chronology, titles, metrics, project status, presentation inventory, training inventory, and headline must remain identical. Only the summary, selected coursework, skill selection/order, project priority, PDF metadata, footer label, and output filename may vary by program.
 
 Experience uses a relevance-weighted recent chronology: research experience remains above tutoring even though the tutoring appointment ended later. Do not describe the section as strictly reverse chronological unless those entries are reordered.
 
