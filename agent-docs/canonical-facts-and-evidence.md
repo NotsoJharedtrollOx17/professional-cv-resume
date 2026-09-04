@@ -10,8 +10,8 @@ The following revisions were inspected for the September 2026 final-cutoff audit
 
 | Evidence source | Verified revision | Ledger use |
 |---|---|---|
-| Emotion Vectors replication repository | `v2.1.0` / `54e896b` | Complete public replication package and 47-page unreviewed preprint PDF |
-| Emotion Vectors preprint source | `0ca6e84` | LaTeX preprint source; no persistent archive identifier established |
+| Emotion Vectors replication repository | `v2.1.0` / `54e896b` | Complete public replication package and 47-page unreviewed technical report PDF |
+| Emotion Vectors technical-report source | `0ca6e84` | LaTeX source for the public technical report; no persistent archive identifier established |
 | BlueBoard `v1.0.1` documentation tag | Tag `aaa3319`; target `b16d0cc` | Corrected release evidence records 167 tests, Windows/Linux CI, and completed Windows/Linux Mint 22.2 original-MkI acceptance; package metadata remains v1.0.0 |
 | ENLACE repository | `v1.0.2` / `e63eeae` | Current public project description; resume retains the narrower numeric comparison |
 | Technical presentations repository | `a40b871` | Presentation titles, dates, formats, and applicant-confirmed author-order policy |
@@ -141,9 +141,9 @@ Use Alejandro Daniel Dennis Hernandez first and Abraham Jhared Flores Azcona sec
 
 | Fact | Canonical value or boundary |
 |---|---|
-| Status | Public independent partial-replication project with an unreviewed preprint source; not peer-reviewed, formally published, or deposited under a persistent archive identifier |
+| Status | Public independent partial-replication project with an unreviewed technical report; not peer-reviewed, formally published, or deposited under a persistent archive identifier |
 | Period | April-July 2026 |
-| Preprint source | `https://github.com/NotsoJharedtrollOx17/preprint-EmotionVectorExtraction-Gemma4-GPT2` |
+| Technical report source | `https://github.com/NotsoJharedtrollOx17/preprint-EmotionVectorExtraction-Gemma4-GPT2` |
 | Replication repository | `https://github.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2` |
 | Scope | GPT-2 Medium and Gemma 4 E2B; 9- and 20-emotion configurations; four reproducible Colab configurations with repository run instructions and saved outputs |
 | Corpus | Cleaned public corpus contains 2,000 generated stories |
