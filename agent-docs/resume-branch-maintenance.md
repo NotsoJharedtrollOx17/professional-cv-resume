@@ -26,11 +26,11 @@ The Research Assistant entry intentionally remains above Academic Tutor because 
 - Organization and supervisor: `Samsung Research Tijuana`; `Jorge Alonso Pulido Trujillo`.
 - Retain 10+ prototypes, four demonstrations, and South Korea workshop language.
 - Keep neutral `assistant functionality` wording unless a specific agentic implementation is established.
-- Use present tense for the ongoing Samsung responsibilities and past tense for completed roles and projects.
+- Use present tense for ongoing Samsung responsibilities. Use past tense for accumulated achievements within the ongoing role, including the 10+ prototypes and four completed demonstrations, as well as for completed roles and projects.
 
 ### Thesis
 
-Use descriptive, non-causal wording: pretest-posttest comparisons showed gains in both groups without a clear advantage for the digitally assisted group. Preserve 46 consenting and 39 analyzed participants, the Python pipeline, confounders, limitations, and the thesis link.
+Use descriptive, non-causal wording: the applicant reported pretest-posttest gains in both groups without a clear advantage for the digitally assisted group. Preserve 46 consenting and 39 analyzed participants, the Python pipeline, confounders, limitations, and the thesis link.
 
 ### ENLACE
 
@@ -38,15 +38,15 @@ Retain two fully connected PyTorch DNNs, the UC San Diego cluster implementation
 
 `Evaluated the larger DNN at 0.9724 ROC AUC versus 0.9751 for the lab GNN baseline.`
 
-Retain code/report coauthorship and presentation locations. Do not restore disputed architecture dimensions or subjective/equivalence language.
+Retain code-and-report coauthorship and presentation locations. Do not restore disputed architecture dimensions or subjective/equivalence language.
 
 ### Partial replication
 
 - Title: `Partial Replication of Anthropic's Emotion Vectors`.
 - Dates: `Apr 2026 -- Jul 2026`.
 - Role/output labels: `Independent research project`; `Technical report and code`.
-- Link both the public unreviewed technical report and the replication repository.
-- Keep the project under `Selected Public Projects`; do not move it to a standalone Publications section until it has a persistent archive identifier or has completed formal publication.
+- Link `Technical report` directly to the readable PDF at the fixed `54e896b5f9b0154c1b5a1c1272b058889894a31e` revision, and retain the separate replication-repository link.
+- Keep the project under `Selected Public Projects` unless it completes formal publication or an application-specific reason justifies reclassification. A DOI or other persistent identifier alone does not establish publication or peer review.
 - Maintain the distinction between the cleaned 2,000-story corpus and older derived artifacts.
 
 ### iRig BlueBoard project
@@ -56,7 +56,7 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 - Role/output labels: `Independent software project`; `Release evidence`.
 - Link the annotated v1.0.1 documentation tag, which targets the completed validation record while retaining v1.0.0 package metadata.
 - State amplifier-state synchronization with MIDI System Exclusive messages plainly.
-- State that the v1.0.1 documentation tag records 167 tests, Windows/Linux CI, and completed original-MkI hardware acceptance on Windows and 64-bit Linux Mint 22.2.
+- Foreground the engineering evidence: 167 automated tests, Windows/Linux CI, and completed original-MkI hardware acceptance on Windows and Linux Mint 22.2. Keep the v1.0.1 documentation tag as the supporting link rather than the bullet's subject.
 - Do not extend that validation to MkII, other Katana models, or arbitrary Linux distributions.
 
 ### Presentations

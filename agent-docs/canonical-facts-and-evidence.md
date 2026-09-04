@@ -103,7 +103,7 @@ Course names and results below preserve the certificate. `Excelente` is qualitat
 | Samsung role | `Open Innovation Engineer`, February 2024-present |
 | Samsung organization | Samsung Research Tijuana |
 | Samsung supervisor | Jorge Alonso Pulido Trujillo, applicant-confirmed preferred professional spelling |
-| Samsung metrics | 10+ distinct AI prototypes and 4 technical demonstrations; retain only as applicant-confirmed, disclosure-safe claims |
+| Samsung metrics | 10+ distinct AI prototypes and 4 technical demonstrations; these are accumulated achievements and use past tense even though the role is ongoing; retain only as applicant-confirmed, disclosure-safe claims |
 | Samsung scope | Resource-constrained consumer devices, on-device ML, language and speech interfaces, assistant functionality, SDK/API integration, international collaboration, and South Korea workshops |
 | Agentic AI | Keep neutral assistant wording until a specific tool-using or agent-workflow implementation is publicly or privately substantiated; do not invent autonomy, planning, orchestration, deployment, or impact |
 | Tutoring | March-October 2023; supervisor Lizeth Carolina Aguilar Dodier; 62 undergraduate engineering students |
@@ -143,6 +143,7 @@ Use Alejandro Daniel Dennis Hernandez first and Abraham Jhared Flores Azcona sec
 |---|---|
 | Status | Public independent partial-replication project with an unreviewed technical report; not peer-reviewed, formally published, or deposited under a persistent archive identifier |
 | Period | April-July 2026 |
+| Technical report PDF | `https://raw.githubusercontent.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2/54e896b5f9b0154c1b5a1c1272b058889894a31e/PartialReplicationEmotionVectors.pdf` |
 | Technical report source | `https://github.com/NotsoJharedtrollOx17/preprint-EmotionVectorExtraction-Gemma4-GPT2` |
 | Replication repository | `https://github.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2` |
 | Scope | GPT-2 Medium and Gemma 4 E2B; 9- and 20-emotion configurations; four reproducible Colab configurations with repository run instructions and saved outputs |
@@ -186,4 +187,5 @@ Retain both training credentials while the document remains two pages:
 - No ORCID or location in the header.
 - No Research Interests section.
 - No credit count, standalone publication section, faculty names, OpenAI Codex, Prompt Engineering, or peer-review/publication language.
+- A DOI or other persistent identifier improves citability but does not by itself establish publication or peer review; do not automatically move the technical report out of `Selected Public Projects`.
 - Source Serif 4 remains the required typeface.
