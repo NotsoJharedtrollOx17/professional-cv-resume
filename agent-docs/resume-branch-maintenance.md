@@ -26,6 +26,7 @@ The Research Assistant entry intentionally remains above Academic Tutor because 
 - Organization and supervisor: `Samsung Research Tijuana`; `Jorge Alonso Pulido Trujillo`.
 - Retain 10+ prototypes, four demonstrations, and South Korea workshop language.
 - Keep neutral `assistant functionality` wording unless a specific agentic implementation is established.
+- Use present tense for the ongoing Samsung responsibilities and past tense for completed roles and projects.
 
 ### Thesis
 
@@ -43,7 +44,8 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 
 - Title: `Partial Replication of Anthropic's Emotion Vectors`.
 - Dates: `Apr 2026 -- Jul 2026`.
-- Role/output labels: `Independent research project`; `Code and results`.
+- Role/output labels: `Independent research project`; `Preprint and code`.
+- Link both the public unreviewed preprint source and the replication repository.
 - Keep the project under `Selected Public Projects`, never Publications or Preprints.
 - Maintain the distinction between the cleaned 2,000-story corpus and older derived artifacts.
 
@@ -54,7 +56,8 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 - Role/output labels: `Independent software project`; `Release`.
 - Link to the v1.0.0 tag.
 - State amplifier-state synchronization with MIDI System Exclusive messages plainly.
-- Scope 167 tests to v1.0.0; distinguish Windows/Linux CI from the Windows hardware demonstration.
+- Scope 167 tests to v1.0.0; distinguish Windows/Linux CI from completed original-MkI hardware validation on Windows and 64-bit Linux Mint 22.2.
+- Do not extend that validation to MkII, other Katana models, or arbitrary Linux distributions.
 
 ### Presentations
 
@@ -65,9 +68,9 @@ Keep all four records. List A. D. Dennis-Hernandez first and A. J. Flores-Azcona
 | Branch | Headline | Project order | Skill policy |
 |---|---|---|---|
 | `main` | AI/ML Systems Engineer | Partial Replication, then iRig BlueBoard | General ordering; omit MIDI/SysEx from the skills row |
-| `ucsd-hdsi-phd` | Applied ML and Data Science Engineer | Partial Replication, then iRig BlueBoard | ML/methods first; omit MIDI/SysEx |
-| `ucsd-cse-phd` | AI/ML Systems Engineer | iRig BlueBoard, then Partial Replication | Systems/tools second; retain MIDI/SysEx, testing, CI, SDK/API integration, Linux, and Windows |
-| `uci-sdsu-computational-science-phd` | Computational Science and AI/ML Engineer | Partial Replication, then iRig BlueBoard | Add Computational Methods; omit MIDI/SysEx |
+| `ucsd-hdsi-phd` | AI/ML Engineer; Reproducible Machine Learning and Representation Analysis | Partial Replication, then iRig BlueBoard | ML/methods first; omit MIDI/SysEx |
+| `ucsd-cse-phd` | AI/ML Systems Engineer; Embedded AI and Software Systems | iRig BlueBoard, then Partial Replication | Systems/tools second; retain MIDI/SysEx, testing, CI, SDK/API integration, Linux, and Windows |
+| `uci-sdsu-computational-science-phd` | Computational Science and AI/ML Engineer; Scientific Computing and Model Evaluation | Partial Replication, then iRig BlueBoard | Add Computational Methods; omit MIDI/SysEx |
 
 ### Summaries
 

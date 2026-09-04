@@ -7,7 +7,7 @@ Maintainable two-page LaTeX resume for PhD applications in data science, compute
 - `paper/main.tex`: resume content, section order, links, and PDF metadata.
 - `paper/resume.sty`: typography, margins, colors, spacing, footer, lists, and reusable entry commands.
 - `agent-docs/README.md`: documentation authority, current status, and settled applicant overrides.
-- `agent-docs/canonical-facts-and-evidence.md`: canonical claim ledger, evidence boundaries, and transcript reference.
+- `agent-docs/canonical-facts-and-evidence.md`: authoritative claim ledger, evidence boundaries, source URLs, and transcript reference.
 - `agent-docs/resume-branch-maintenance.md`: branch tailoring, editing workflow, build instructions, and validation checklist.
 - `scripts/Test-BranchInvariants.ps1`: checks shared facts and support files across all four local branches.
 - `agent-docs/abraham_flores_azcona_general_phd_resume.pdf`: historical web-generated reference; it is not a build dependency.
@@ -22,6 +22,8 @@ Maintainable two-page LaTeX resume for PhD applications in data science, compute
 | `uci-sdsu-computational-science-phd` | UCI-SDSU Joint PhD in Computational Science |
 
 Across branches, dates, titles, metrics, project status, presentations, and training remain identical. Tailoring is limited to the headline, summary, coursework selection, skill order, project priority, metadata, and final filename.
+
+The Markdown claim ledger governs factual wording. The invariant validator enforces its frozen claims across the four branch tips; branch-specific LaTeX remains separate so application tailoring stays reviewable in Git.
 
 ## Build
 
