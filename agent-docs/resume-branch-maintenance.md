@@ -85,7 +85,7 @@ Keep all four records. List A. D. Dennis-Hernandez first and A. J. Flores-Azcona
 
 `uci-sdsu-computational-science-phd`:
 
-> Computational science and AI/ML engineer who has built reproducible workflows for representation analysis, particle-tracking classification, and applied AI systems. Background combines numerical and statistical evaluation, Python and C/C++ implementation, resource-aware computing, teaching, and public software.
+> Computational science and AI/ML engineer with experience building reproducible workflows for particle-tracking classification, representation analysis, and applied AI systems. Work connects scientific computing, numerical and statistical evaluation, Python and C/C++ implementation, and teaching.
 
 ### Selected coursework
 
