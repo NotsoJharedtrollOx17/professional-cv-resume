@@ -15,21 +15,23 @@ $branches = @(
 $requiredPatterns = [ordered]@{
     'Samsung title and dates' = '\\cvexperience\{Open Innovation Engineer\}\{Feb 2024 -- Present\}'
     'Samsung supervisor' = '\{Samsung Research Tijuana\}\{Supervisor\}\{Jorge Alonso Pulido Trujillo\}'
-    'Ongoing Samsung tense' = '\\item Develop and evaluate 10\+ AI prototypes'
-    'Descriptive thesis outcome' = 'gains in both groups without a clear advantage for the digitally assisted group'
+    'Accumulated Samsung prototype achievement' = '\\item Developed and evaluated 10\+ AI prototypes'
+    'Ongoing Samsung integration responsibility' = '\\item Integrate partner SDKs and APIs'
+    'Accumulated Samsung demonstration achievement' = '\\item Delivered four technical demonstrations'
+    'Descriptive thesis outcome' = 'Reported descriptive pretest-posttest gains in both groups without a clear advantage for the digitally assisted group'
     'ENLACE comparison' = '0\.9724 ROC AUC versus 0\.9751 for the lab GNN baseline'
     'Emotion project dates' = '\\cvexperience\{Partial Replication of Anthropic''s Emotion Vectors\}\{Apr 2026 -- Jul 2026\}'
-    'Emotion technical report' = 'preprint-EmotionVectorExtraction-Gemma4-GPT2\}\{Technical report\}'
+    'Direct fixed-revision technical report' = 'raw\.githubusercontent\.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2/54e896b5f9b0154c1b5a1c1272b058889894a31e/PartialReplicationEmotionVectors\.pdf\}\{Technical report\}'
     'Emotion replication repository' = 'EmotionVectorExtraction-Gemma4-GPT2\}\{Replication repository\}'
     'BlueBoard project dates' = '\\cvexperience\{iRig BlueBoard - BOSS Katana CLI Bridge\}\{Aug 2026 -- Sep 2026\}'
     'BlueBoard v1.0.1 evidence tag' = 'BlueBoard-BOSSKatana-Pedalboard/tree/v1\.0\.1\}\{v1\.0\.1 documentation tag\}'
-    'BlueBoard test and platform scope' = 'Published the v1\.0\.1 documentation tag with 167 automated tests, Windows/Linux CI, and completed target-hardware acceptance on Windows and 64-bit Linux Mint 22\.2 for the original KATANA-100 MkI\.'
+    'BlueBoard test and platform scope' = 'Maintained 167 automated tests and Windows/Linux CI; completed hardware acceptance testing for the original KATANA-100 MkI on Windows and Linux Mint 22\.2\.'
     'September ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Bilingual slides'
     'August ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Poster'
     'IBM credential' = 'IBM Data Science Professional Certificate'
     'McKinsey credential' = 'McKinsey\.org Forward Program'
     'TOEFL notation' = 'TOEFL iBT: 5\.5/6\.0'
-    'CI/CD testing label' = 'Automated and CI/CD Testing'
+    'CI terminology' = 'Automated Testing and Continuous Integration'
 }
 
 $forbiddenPatterns = [ordered]@{
@@ -43,6 +45,9 @@ $forbiddenPatterns = [ordered]@{
     'Superseded separate validation link' = '05-release-history-and-v1\.0\.0-checklist\.md\}\{Validation record\}'
     'Stale Emotion status label' = '\{Code and results\}'
     'Stale preprint artifact label' = '\{Preprint and code\}|\{Preprint source\}'
+    'Stale CI/CD terminology' = 'Automated and CI/CD Testing'
+    'Stale BlueBoard tag-led bullet' = 'Published the v1\.0\.1 documentation tag with 167 automated tests'
+    'Stale ENLACE code/report wording' = '\{code/report\}'
 }
 
 $supportPaths = @(

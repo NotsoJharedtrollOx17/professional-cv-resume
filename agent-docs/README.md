@@ -58,8 +58,8 @@ List A. D. Dennis-Hernandez first and A. J. Flores-Azcona second on both 2023 EN
 
 - Make evidence-backed edits on `main` first, then port shared corrections without overwriting branch tailoring.
 - Generated PDFs and rendered QA images remain ignored.
-- Do not add a standalone Publications section until the work has a persistent archive identifier or has completed formal publication.
-- Do not add faculty names, unverified impact metrics, architecture dimensions, Linux hardware parity, causal thesis language, or a tutoring visit count.
+- Keep the technical report under `Selected Public Projects` unless it completes formal publication or an application-specific reason justifies reclassification; a DOI or other persistent identifier alone does not establish publication or peer review.
+- Do not add faculty names, unverified impact metrics, architecture dimensions, validation beyond the documented original KATANA-100 MkI platforms, causal thesis language, or a tutoring visit count.
 - Do not push branches unless the applicant explicitly authorizes the named remote and branches.
 
 `canonical-facts-and-evidence.md` is the single human-readable fact ledger. `scripts/Test-BranchInvariants.ps1` mirrors its frozen application claims as executable checks; update both in the same shared commit whenever evidence changes.
