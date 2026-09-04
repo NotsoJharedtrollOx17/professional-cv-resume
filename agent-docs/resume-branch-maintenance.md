@@ -53,10 +53,10 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 
 - Title: `iRig BlueBoard - BOSS Katana CLI Bridge`.
 - Dates: `Aug 2026 -- Sep 2026`.
-- Role/output labels: `Independent software project`; `Release and validation`.
-- Link both the v1.0.0 tag and the later validation record.
+- Role/output labels: `Independent software project`; `Release evidence`.
+- Link the annotated v1.0.1 documentation tag, which targets the completed validation record while retaining v1.0.0 package metadata.
 - State amplifier-state synchronization with MIDI System Exclusive messages plainly.
-- Scope 167 tests to v1.0.0; describe the Windows/Linux original-MkI hardware acceptance as subsequent validation because the immutable tag predates the completed Linux record.
+- State that the v1.0.1 documentation tag records 167 tests, Windows/Linux CI, and completed original-MkI hardware acceptance on Windows and 64-bit Linux Mint 22.2.
 - Do not extend that validation to MkII, other Katana models, or arbitrary Linux distributions.
 
 ### Presentations

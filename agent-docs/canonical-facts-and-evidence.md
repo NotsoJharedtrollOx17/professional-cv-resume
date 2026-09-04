@@ -12,8 +12,7 @@ The following revisions were inspected for the September 2026 final-cutoff audit
 |---|---|---|
 | Emotion Vectors replication repository | `v2.1.0` / `54e896b` | Complete public replication package and 47-page unreviewed preprint PDF |
 | Emotion Vectors preprint source | `0ca6e84` | LaTeX preprint source; no persistent archive identifier established |
-| BlueBoard current validation record | `b16d0cc` | Completed Windows and Linux Mint 22.2 original-MkI acceptance |
-| BlueBoard `v1.0.0` tag | `009325f` | 167-test release package; the tag predates the completed Linux acceptance record |
+| BlueBoard `v1.0.1` documentation tag | Tag `aaa3319`; target `b16d0cc` | Corrected release evidence records 167 tests, Windows/Linux CI, and completed Windows/Linux Mint 22.2 original-MkI acceptance; package metadata remains v1.0.0 |
 | ENLACE repository | `v1.0.2` / `e63eeae` | Current public project description; resume retains the narrower numeric comparison |
 | Technical presentations repository | `a40b871` | Presentation titles, dates, formats, and applicant-confirmed author-order policy |
 
@@ -159,11 +158,11 @@ Use `reproducible` only while the public instructions and notebooks remain runna
 | Fact | Canonical value or boundary |
 |---|---|
 | Period | August-September 2026 |
-| Release | Annotated v1.0.0 tag at `009325f`; link separately to the later validation record |
+| Release evidence | Annotated v1.0.1 documentation tag (`aaa3319`) targeting `b16d0cc`; package/runtime metadata inside the snapshot remains v1.0.0 |
 | Hardware | iRig BlueBoard and the original BOSS KATANA-100 MkI amplifier |
 | Implementation | BLE-MIDI input, USB-MIDI output, MIDI routing, reconnect handling, modular action dispatch, and amplifier-state synchronization using MIDI System Exclusive messages |
-| Tests | The v1.0.0 tag records `Ran 167 tests`; scope the count to v1.0.0 |
-| Platform boundary | Windows/Linux CI exists separately from physical validation; subsequent documentation at `b16d0cc` records complete original KATANA-100 MkI v4.00 hardware acceptance on Windows and 64-bit Linux Mint 22.2; the historical v1.0.0 tag still describes Linux acceptance as pending; MkII remains hardware-unvalidated |
+| Tests | The v1.0.1 documentation tag records `Ran 167 tests` and Windows/Linux CI |
+| Platform boundary | The v1.0.1 documentation tag records complete original KATANA-100 MkI v4.00 hardware acceptance on Windows and 64-bit Linux Mint 22.2; MkII remains hardware-unvalidated |
 
 Do not generalize the original-MkI Windows/Linux acceptance to MkII, other Katana models, arbitrary Linux distributions, or production-grade reliability.
 
