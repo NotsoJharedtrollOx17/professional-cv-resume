@@ -7,13 +7,15 @@ All four variants use this two-page order:
 1. Name, professional headline, and four contact links.
 2. Summary.
 3. Education.
-4. Unified reverse-chronological Experience.
+4. Unified Experience in relevance-weighted recent chronology.
 5. Selected Public Projects, beginning page two.
 6. Selected Presentations.
 7. Technical Skills.
 8. Additional Training.
 
 Preserve the Source Serif 4 typography, black hierarchy, blue links, 0.65-inch margins, right-aligned dates, compact bullets, and dynamic `Page x of y` footer. Do not reduce the type size or narrow the margins to accommodate new content.
+
+The Research Assistant entry intentionally remains above Academic Tutor because research relevance governs their ordering, even though tutoring ended in October 2023 and the assistantship ended in August 2023.
 
 ## Shared wording decisions
 
@@ -122,7 +124,8 @@ Computational Methods comprises Numerical Experimentation, Statistical Analysis,
 6. Cherry-pick or manually port it to each tailored branch, resolving only intended tailoring conflicts.
 7. Build and inspect every branch.
 8. Audit branch diffs against the permitted categories above.
-9. Push only with explicit applicant authorization for the named remote and branches.
+9. Run `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/Test-BranchInvariants.ps1` from the repository root.
+10. Push only with explicit applicant authorization for the named remote and branches.
 
 ## Build workflow
 
@@ -143,9 +146,10 @@ Source Serif 4 must be available through the XeLaTeX/TeX Live installation. Gene
 ```powershell
 git diff --check
 chktex -q -n1 -n8 -n12 -n13 -n24 -n36 paper/main.tex
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/Test-BranchInvariants.ps1
 ```
 
-Filtered ChkTeX intentionally suppresses known formatting false positives. Source checks do not replace PDF inspection.
+Filtered ChkTeX intentionally suppresses known formatting false positives. The invariant validator checks the local branch tips and therefore should be run after fetching and porting shared changes. Source checks do not replace PDF inspection.
 
 ## PDF acceptance checklist
 
