@@ -46,7 +46,7 @@ As of September 3, 2026:
 - the ENLACE comparison reports both ROC-AUC values without subjective or equivalence language;
 - the thesis outcome is explicitly descriptive and non-causal;
 - the BlueBoard `v1.0.1` documentation tag records 167 tests, Windows/Linux CI, and completed original-MkI hardware acceptance, while the package metadata remains at v1.0.0;
-- the independent Emotion Vectors work has a public unreviewed preprint source and replication repository, but no peer review or persistent archive identifier;
+- the independent Emotion Vectors work has a public unreviewed technical report and replication repository, but no peer review or persistent archive identifier;
 - `MIDI/SysEx` is omitted from the general, HDSI, and UCI-SDSU skill inventories and retained only in CSE;
 - all four presentation records remain listed, along with both training credentials.
 
