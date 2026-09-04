@@ -123,7 +123,7 @@ Do not claim causality, equivalence, statistical significance, or a direct betwe
 | Architecture boundary | Slides, code, and README disagree about input and hidden dimensions; omit those dimensions |
 | Interpretation boundary | Report the two values plainly; do not say matched, equivalent, competitive, outperformed, unexpectedly close, more efficient, or lower cost |
 
-The September 28 oral deck prints Alejandro Daniel Dennis Hernandez first and Abraham Jhared Flores Azcona second. The August 11 poster prints `A. Flores, A. Dennis`; retain Flores first pending explicit applicant resolution of the conflicting pen-review note.
+Use Alejandro Daniel Dennis Hernandez first and Abraham Jhared Flores Azcona second for both 2023 ENLACE presentation records. The September 28 oral deck supports this order directly. Although the August 11 poster prints `A. Flores, A. Dennis`, the applicant explicitly confirmed that Dennis-Hernandez should be listed first; this applicant-confirmed correction supersedes the poster's printed ordering in the resume.
 
 ## Partial Replication of Anthropic's Emotion Vectors
 
@@ -159,7 +159,7 @@ Retain four presentation records in reverse chronological order:
 1. Partial Replication of Anthropic's Emotion Vectors Using Gemma 4 E2B and GPT-2 Medium Inside a Google Colab T4 Notebook - virtual internal Samsung seminar, May 12, 2026.
 2. Tizen Native in the Age of AI Tools - INNOVATEC 2025, November 20, 2025.
 3. Using Machine Learning for Particle Tracking at the Large Hadron Collider - oral presentation, September 28, 2023; Dennis-Hernandez first, Flores-Azcona second.
-4. Using ML for LHC Particle Tracking - poster, August 11, 2023; artifact prints Flores first, Dennis second.
+4. Using ML for LHC Particle Tracking - poster, August 11, 2023; list Dennis-Hernandez first and Flores-Azcona second per the applicant-confirmed correction.
 
 Retain both training credentials while the document remains two pages:
 
