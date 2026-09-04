@@ -14,6 +14,7 @@ $branches = @(
 
 $requiredPatterns = [ordered]@{
     'Samsung title and dates' = '\\cvexperience\{Open Innovation Engineer\}\{Feb 2024 -- Present\}'
+    'Shared Summary' = 'AI/ML systems engineer who has developed and evaluated applied AI prototypes for resource-constrained devices, conducted reproducible machine-learning experiments, and built cross-platform research and hardware-software tools\. Experience spans representation analysis, particle-tracking classification, scientific computing, protocol-driven integration, and automated testing\.'
     'Samsung supervisor' = '\{Samsung Research Tijuana\}\{Supervisor\}\{Jorge Alonso Pulido Trujillo\}'
     'Accumulated Samsung prototype achievement' = '\\item Developed and evaluated 10\+ AI prototypes'
     'Ongoing Samsung integration responsibility' = '\\item Integrate partner SDKs and APIs'
