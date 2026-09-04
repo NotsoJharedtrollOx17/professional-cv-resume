@@ -125,12 +125,14 @@ Do not claim causality, equivalence, statistical significance, or a direct betwe
 
 Use Alejandro Daniel Dennis Hernandez first and Abraham Jhared Flores Azcona second for both 2023 ENLACE presentation records. The September 28 oral deck supports this order directly. Although the August 11 poster prints `A. Flores, A. Dennis`, the applicant explicitly confirmed that Dennis-Hernandez should be listed first; this applicant-confirmed correction supersedes the poster's printed ordering in the resume.
 
-## Partial Replication of Anthropic's Emotion Vectors
+## Partial Replication of Anthropic's Emotion Vectors Using Gemma 4 E2B and GPT-2 Medium
 
 | Fact | Canonical value or boundary |
 |---|---|
-| Status | Public independent partial-replication project; not a paper, preprint, publication, manuscript, or peer-reviewed study |
+| Status | Public independent partial-replication project with an unreviewed preprint source; not peer-reviewed, formally published, or deposited under a persistent archive identifier |
 | Period | April-July 2026 |
+| Preprint source | `https://github.com/NotsoJharedtrollOx17/preprint-EmotionVectorExtraction-Gemma4-GPT2` |
+| Replication repository | `https://github.com/NotsoJharedtrollOx17/EmotionVectorExtraction-Gemma4-GPT2` |
 | Scope | GPT-2 Medium and Gemma 4 E2B; 9- and 20-emotion configurations; four reproducible Colab configurations with repository run instructions and saved outputs |
 | Corpus | Cleaned public corpus contains 2,000 generated stories |
 | Artifact provenance | Some committed vectors and plots may predate cleanup from 2,010 stories; do not imply every saved output was regenerated from the cleaned corpus |
@@ -148,9 +150,9 @@ Use `reproducible` only while the public instructions and notebooks remain runna
 | Hardware | iRig BlueBoard and the original BOSS KATANA-100 MkI amplifier |
 | Implementation | BLE-MIDI input, USB-MIDI output, MIDI routing, reconnect handling, modular action dispatch, and amplifier-state synchronization using MIDI System Exclusive messages |
 | Tests | The v1.0.0 tag records `Ran 167 tests`; scope the count to v1.0.0 |
-| Platform boundary | Windows/Linux CI exists; the tagged build was demonstrated with target hardware on Windows; do not infer complete Linux physical qualification from CI |
+| Platform boundary | Windows/Linux CI exists separately from physical validation; original KATANA-100 MkI v4.00 hardware acceptance is complete on Windows and 64-bit Linux Mint 22.2; MkII remains hardware-unvalidated |
 
-Do not add bidirectional, real-time, production-grade, fully reliable, or cross-platform hardware-parity claims without new evidence.
+Do not generalize the original-MkI Windows/Linux acceptance to MkII, other Katana models, arbitrary Linux distributions, or production-grade reliability.
 
 ## Presentations and training
 
@@ -171,5 +173,5 @@ Retain both training credentials while the document remains two pages:
 - TOEFL line: `TOEFL iBT: 5.5/6.0`, applicant-confirmed notation.
 - No ORCID or location in the header.
 - No Research Interests section.
-- No credit count, manuscript section, faculty names, OpenAI Codex, Prompt Engineering, or unsupported publication language.
+- No credit count, standalone publication section, faculty names, OpenAI Codex, Prompt Engineering, or peer-review/publication language.
 - Source Serif 4 remains the required typeface.
