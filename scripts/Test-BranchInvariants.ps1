@@ -22,7 +22,8 @@ $requiredPatterns = [ordered]@{
     'Emotion preprint source' = 'preprint-EmotionVectorExtraction-Gemma4-GPT2\}\{Preprint source\}'
     'Emotion replication repository' = 'EmotionVectorExtraction-Gemma4-GPT2\}\{Replication repository\}'
     'BlueBoard project dates' = '\\cvexperience\{iRig BlueBoard - BOSS Katana CLI Bridge\}\{Aug 2026 -- Sep 2026\}'
-    'BlueBoard test and platform scope' = 'Included 167 automated tests at v1\.0\.0 and Windows/Linux CI; completed target-hardware validation on Windows and 64-bit Linux Mint 22\.2 for the original KATANA-100 MkI\.'
+    'BlueBoard test and platform scope' = 'Included 167 automated tests at v1\.0\.0 and Windows/Linux CI; subsequent validation completed target-hardware acceptance on Windows and 64-bit Linux Mint 22\.2 for the original KATANA-100 MkI\.'
+    'BlueBoard validation record' = '05-release-history-and-v1\.0\.0-checklist\.md\}\{Validation record\}'
     'September ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Bilingual slides'
     'August ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Poster'
     'IBM credential' = 'IBM Data Science Professional Certificate'
@@ -52,6 +53,13 @@ $supportPaths = @(
 
 $failures = [System.Collections.Generic.List[string]]::new()
 
+$branchHeadlinePatterns = @{
+    'main' = '\\ResumeTagline\{AI/ML Systems Engineer\}'
+    'ucsd-hdsi-phd' = '\\ResumeTagline\{AI/ML Engineer \\TaglineSep Reproducible Machine Learning and Representation Analysis\}'
+    'ucsd-cse-phd' = '\\ResumeTagline\{AI/ML Systems Engineer \\TaglineSep Embedded AI and Software Systems\}'
+    'uci-sdsu-computational-science-phd' = '\\ResumeTagline\{Computational Science and AI/ML Engineer \\TaglineSep Scientific Computing and Model Evaluation\}'
+}
+
 foreach ($branch in $branches) {
     & git @gitOptions rev-parse --verify --quiet $branch | Out-Null
     if ($LASTEXITCODE -ne 0) {
@@ -76,6 +84,10 @@ foreach ($branch in $branches) {
         if ($source -match $item.Value) {
             $failures.Add("[$branch] Forbidden stale wording: $($item.Key)")
         }
+    }
+
+    if ($source -notmatch $branchHeadlinePatterns[$branch]) {
+        $failures.Add("[$branch] Headline does not match the claims ledger")
     }
 
     if ($branch -ne 'ucsd-cse-phd') {
