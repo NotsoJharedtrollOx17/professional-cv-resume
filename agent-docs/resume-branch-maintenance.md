@@ -72,23 +72,11 @@ Keep all four records. List A. D. Dennis-Hernandez first and A. J. Flores-Azcona
 | `ucsd-cse-phd` | AI/ML Systems Engineer | iRig BlueBoard, then Partial Replication | Systems/tools second; retain MIDI/SysEx, testing, CI, SDK/API integration, Linux, and Windows |
 | `uci-sdsu-computational-science-phd` | AI/ML Systems Engineer | Partial Replication, then iRig BlueBoard | Add Computational Methods; omit MIDI/SysEx |
 
-### Summaries
+### Shared Summary
 
-`main`:
+> AI/ML systems engineer who has developed and evaluated applied AI prototypes for resource-constrained devices, conducted reproducible machine-learning experiments, and built cross-platform research and hardware-software tools. Experience spans representation analysis, particle-tracking classification, scientific computing, protocol-driven integration, and automated testing.
 
-> AI/ML systems engineer who has developed and evaluated applied AI prototypes for resource-constrained devices and conducted reproducible machine-learning experiments. Public projects demonstrate representation analysis, particle-tracking classification, hardware-software integration, and cross-platform test automation.
-
-`ucsd-hdsi-phd`:
-
-> Applied ML and data science engineer who has built and evaluated AI prototypes and conducted reproducible experiments in representation analysis and particle-tracking classification. Background combines industry engineering, quantitative evaluation, and public research software.
-
-`ucsd-cse-phd`:
-
-> AI/ML systems engineer with experience integrating software for resource-constrained devices and building cross-platform Python and C/C++ tools. Work spans SDK/API integration, protocol-driven hardware control, automated testing, and reproducible ML evaluation.
-
-`uci-sdsu-computational-science-phd`:
-
-> Computational science and AI/ML engineer with experience building reproducible workflows for particle-tracking classification, representation analysis, and applied AI systems. Work connects scientific computing, numerical and statistical evaluation, Python and C/C++ implementation, and teaching.
+All four branches use this Summary verbatim. Program-specific framing belongs in the selected coursework, skill ordering, project priority, and output metadata.
 
 ### Selected coursework
 
