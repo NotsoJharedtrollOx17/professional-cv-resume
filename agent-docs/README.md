@@ -48,13 +48,9 @@ As of September 3, 2026:
 - `MIDI/SysEx` is omitted from the general, HDSI, and UCI-SDSU skill inventories and retained only in CSE;
 - all four presentation records remain listed, along with both training credentials.
 
-## One unresolved authorship discrepancy
+## Applicant-confirmed presentation authorship
 
-The August 11, 2023 poster visibly prints `A. Flores, A. Dennis`, placing the applicant first. The latest pen-review note says the applicant intended to be listed second. Until the applicant explicitly resolves that conflict, preserve the artifact order in the resume:
-
-`A. J. Flores-Azcona and A. D. Dennis-Hernandez.`
-
-The September 28, 2023 oral deck independently prints Alejandro Daniel Dennis Hernandez first and Abraham Jhared Flores Azcona second; retain that order.
+List A. D. Dennis-Hernandez first and A. J. Flores-Azcona second on both 2023 ENLACE presentation records. The August 11 poster artifact visibly prints `A. Flores, A. Dennis`, but the applicant explicitly confirmed that the intended order is Dennis-Hernandez first and Flores-Azcona second. The applicant-confirmed order governs the resume and supersedes the printed ordering for this purpose.
 
 ## Change discipline
 

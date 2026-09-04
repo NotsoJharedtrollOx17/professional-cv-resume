@@ -56,7 +56,7 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 
 ### Presentations
 
-Keep all four records and their artifact-specific author order. Avoid `Poster. Poster presentation.`; use a linked `Poster` followed by `Presented at ...`.
+Keep all four records. List A. D. Dennis-Hernandez first and A. J. Flores-Azcona second for both 2023 ENLACE records, following the applicant-confirmed correction documented in `canonical-facts-and-evidence.md`. Avoid `Poster. Poster presentation.`; use a linked `Poster` followed by `Presented at ...`.
 
 ## Permitted branch differences
 
