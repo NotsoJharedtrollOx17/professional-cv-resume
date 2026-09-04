@@ -46,17 +46,17 @@ Retain code/report coauthorship and presentation locations. Do not restore dispu
 - Dates: `Apr 2026 -- Jul 2026`.
 - Role/output labels: `Independent research project`; `Preprint and code`.
 - Link both the public unreviewed preprint source and the replication repository.
-- Keep the project under `Selected Public Projects`, never Publications or Preprints.
+- Keep the project under `Selected Public Projects`; do not move it to a standalone Publications section until it has a persistent archive identifier or has completed formal publication.
 - Maintain the distinction between the cleaned 2,000-story corpus and older derived artifacts.
 
 ### iRig BlueBoard project
 
 - Title: `iRig BlueBoard - BOSS Katana CLI Bridge`.
 - Dates: `Aug 2026 -- Sep 2026`.
-- Role/output labels: `Independent software project`; `Release`.
-- Link to the v1.0.0 tag.
+- Role/output labels: `Independent software project`; `Release and validation`.
+- Link both the v1.0.0 tag and the later validation record.
 - State amplifier-state synchronization with MIDI System Exclusive messages plainly.
-- Scope 167 tests to v1.0.0; distinguish Windows/Linux CI from completed original-MkI hardware validation on Windows and 64-bit Linux Mint 22.2.
+- Scope 167 tests to v1.0.0; describe the Windows/Linux original-MkI hardware acceptance as subsequent validation because the immutable tag predates the completed Linux record.
 - Do not extend that validation to MkII, other Katana models, or arbitrary Linux distributions.
 
 ### Presentations
