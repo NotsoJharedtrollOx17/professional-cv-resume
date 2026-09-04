@@ -19,7 +19,7 @@ $requiredPatterns = [ordered]@{
     'Descriptive thesis outcome' = 'gains in both groups without a clear advantage for the digitally assisted group'
     'ENLACE comparison' = '0\.9724 ROC AUC versus 0\.9751 for the lab GNN baseline'
     'Emotion project dates' = '\\cvexperience\{Partial Replication of Anthropic''s Emotion Vectors\}\{Apr 2026 -- Jul 2026\}'
-    'Emotion preprint source' = 'preprint-EmotionVectorExtraction-Gemma4-GPT2\}\{Preprint source\}'
+    'Emotion technical report' = 'preprint-EmotionVectorExtraction-Gemma4-GPT2\}\{Technical report\}'
     'Emotion replication repository' = 'EmotionVectorExtraction-Gemma4-GPT2\}\{Replication repository\}'
     'BlueBoard project dates' = '\\cvexperience\{iRig BlueBoard - BOSS Katana CLI Bridge\}\{Aug 2026 -- Sep 2026\}'
     'BlueBoard v1.0.1 evidence tag' = 'BlueBoard-BOSSKatana-Pedalboard/tree/v1\.0\.1\}\{v1\.0\.1 documentation tag\}'
@@ -42,6 +42,7 @@ $forbiddenPatterns = [ordered]@{
     'Superseded BlueBoard v1.0.0 link' = 'BlueBoard-BOSSKatana-Pedalboard/tree/v1\.0\.0'
     'Superseded separate validation link' = '05-release-history-and-v1\.0\.0-checklist\.md\}\{Validation record\}'
     'Stale Emotion status label' = '\{Code and results\}'
+    'Stale preprint artifact label' = '\{Preprint and code\}|\{Preprint source\}'
 }
 
 $supportPaths = @(
