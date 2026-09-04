@@ -68,9 +68,9 @@ Keep all four records. List A. D. Dennis-Hernandez first and A. J. Flores-Azcona
 | Branch | Headline | Project order | Skill policy |
 |---|---|---|---|
 | `main` | AI/ML Systems Engineer | Partial Replication, then iRig BlueBoard | General ordering; omit MIDI/SysEx from the skills row |
-| `ucsd-hdsi-phd` | AI/ML Engineer; Reproducible Machine Learning and Representation Analysis | Partial Replication, then iRig BlueBoard | ML/methods first; omit MIDI/SysEx |
-| `ucsd-cse-phd` | AI/ML Systems Engineer; Embedded AI and Software Systems | iRig BlueBoard, then Partial Replication | Systems/tools second; retain MIDI/SysEx, testing, CI, SDK/API integration, Linux, and Windows |
-| `uci-sdsu-computational-science-phd` | Computational Science and AI/ML Engineer; Scientific Computing and Model Evaluation | Partial Replication, then iRig BlueBoard | Add Computational Methods; omit MIDI/SysEx |
+| `ucsd-hdsi-phd` | AI/ML Systems Engineer | Partial Replication, then iRig BlueBoard | ML/methods first; omit MIDI/SysEx |
+| `ucsd-cse-phd` | AI/ML Systems Engineer | iRig BlueBoard, then Partial Replication | Systems/tools second; retain MIDI/SysEx, testing, CI, SDK/API integration, Linux, and Windows |
+| `uci-sdsu-computational-science-phd` | AI/ML Systems Engineer | Partial Replication, then iRig BlueBoard | Add Computational Methods; omit MIDI/SysEx |
 
 ### Summaries
 
