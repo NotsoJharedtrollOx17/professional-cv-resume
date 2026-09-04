@@ -45,8 +45,8 @@ As of September 3, 2026:
 - Differential Calculus and Integral Calculus are separate transcript courses;
 - the ENLACE comparison reports both ROC-AUC values without subjective or equivalence language;
 - the thesis outcome is explicitly descriptive and non-causal;
-- the BlueBoard test count is scoped to the v1.0.0 tag and its Windows/Linux CI boundary;
-- the independent Emotion Vectors work is a public partial replication, not a preprint or publication;
+- the BlueBoard test count is scoped to v1.0.0, while Windows/Linux CI and completed original-MkI hardware validation are stated separately;
+- the independent Emotion Vectors work has a public unreviewed preprint source and replication repository, but no peer review or persistent archive identifier;
 - `MIDI/SysEx` is omitted from the general, HDSI, and UCI-SDSU skill inventories and retained only in CSE;
 - all four presentation records remain listed, along with both training credentials.
 
@@ -61,3 +61,5 @@ List A. D. Dennis-Hernandez first and A. J. Flores-Azcona second on both 2023 EN
 - Do not add a publication section until a stable public scholarly artifact exists.
 - Do not add faculty names, unverified impact metrics, architecture dimensions, Linux hardware parity, causal thesis language, or a tutoring visit count.
 - Do not push branches unless the applicant explicitly authorizes the named remote and branches.
+
+`canonical-facts-and-evidence.md` is the single human-readable fact ledger. `scripts/Test-BranchInvariants.ps1` mirrors its frozen application claims as executable checks; update both in the same shared commit whenever evidence changes.
