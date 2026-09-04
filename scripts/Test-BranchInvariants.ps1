@@ -22,8 +22,8 @@ $requiredPatterns = [ordered]@{
     'Emotion preprint source' = 'preprint-EmotionVectorExtraction-Gemma4-GPT2\}\{Preprint source\}'
     'Emotion replication repository' = 'EmotionVectorExtraction-Gemma4-GPT2\}\{Replication repository\}'
     'BlueBoard project dates' = '\\cvexperience\{iRig BlueBoard - BOSS Katana CLI Bridge\}\{Aug 2026 -- Sep 2026\}'
-    'BlueBoard test and platform scope' = 'Included 167 automated tests at v1\.0\.0 and Windows/Linux CI; subsequent validation completed target-hardware acceptance on Windows and 64-bit Linux Mint 22\.2 for the original KATANA-100 MkI\.'
-    'BlueBoard validation record' = '05-release-history-and-v1\.0\.0-checklist\.md\}\{Validation record\}'
+    'BlueBoard v1.0.1 evidence tag' = 'BlueBoard-BOSSKatana-Pedalboard/tree/v1\.0\.1\}\{v1\.0\.1 documentation tag\}'
+    'BlueBoard test and platform scope' = 'Published the v1\.0\.1 documentation tag with 167 automated tests, Windows/Linux CI, and completed target-hardware acceptance on Windows and 64-bit Linux Mint 22\.2 for the original KATANA-100 MkI\.'
     'September ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Bilingual slides'
     'August ENLACE authorship' = 'A\. D\. Dennis-Hernandez and \\textbf\{A\. J\. Flores-Azcona\}.*Poster'
     'IBM credential' = 'IBM Data Science Professional Certificate'
@@ -39,6 +39,8 @@ $forbiddenPatterns = [ordered]@{
     'Old poster author order' = '\\textbf\{A\. J\. Flores-Azcona\} and A\. D\. Dennis-Hernandez.*Poster'
     'Unscoped BlueBoard test wording' = 'supported by 167 tests and a Windows hardware demonstration'
     'Stale Windows-only BlueBoard validation' = 'demonstrated the tagged build with the target hardware on Windows'
+    'Superseded BlueBoard v1.0.0 link' = 'BlueBoard-BOSSKatana-Pedalboard/tree/v1\.0\.0'
+    'Superseded separate validation link' = '05-release-history-and-v1\.0\.0-checklist\.md\}\{Validation record\}'
     'Stale Emotion status label' = '\{Code and results\}'
 }
 
