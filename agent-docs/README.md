@@ -17,7 +17,7 @@ Do not treat a historical assistant recommendation, filename, Git date, or repos
 
 ## Active files
 
-- `README.md`: authority map, current state, and unresolved decisions.
+- `README.md`: authority map, current state, and settled applicant overrides.
 - `canonical-facts-and-evidence.md`: academic record, employment facts, project and presentation evidence, claim boundaries, and the transcript course ledger.
 - `resume-branch-maintenance.md`: shared resume wording, permitted branch differences, build workflow, filenames, and acceptance checks.
 - `abraham_flores_azcona_general_phd_resume.pdf`: historical web-generated reference; it is not a build dependency or current layout authority.
@@ -34,6 +34,8 @@ All superseded Markdown reviews, roasts, handoffs, audits, and candidate-project
 | `uci-sdsu-computational-science-phd` | UCI-SDSU Joint PhD in Computational Science |
 
 Shared chronology, titles, metrics, project status, presentation inventory, and training inventory must remain identical. Only the headline, summary, selected coursework, skill selection/order, project priority, PDF metadata, footer label, and output filename may vary by program.
+
+Experience uses a relevance-weighted recent chronology: research experience remains above tutoring even though the tutoring appointment ended later. Do not describe the section as strictly reverse chronological unless those entries are reordered.
 
 ## Current status
 
